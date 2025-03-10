@@ -1,0 +1,12 @@
+{
+    "cobblemon.species.rotom-heat.desc": "Ce Pok\u00c3\u00a9mon a pris cette forme en se cachant dans une curieuse marmite dont j'ignore la provenance. De nature espi\u00c3\u00a8gle, il cause de nombreux ennuis en crachant des flammes.",
+    "cobblemon.species.rotom-wash.desc": "Ce Pok\u00c3\u00a9mon a pris cette forme en se cachant dans une armoire insolite dont j'ignore la fonction. De nature espi\u00c3\u00a8gle, il cause de nombreux ennuis en projetant de l'eau froide.",
+    "cobblemon.species.rotom-fan.desc": "Ce Pok\u00c3\u00a9mon a pris cette forme en se cachant dans un engin myst\u00c3\u00a9rieux dont j'ignore la fonction. De nature espi\u00c3\u00a8gle, il cause de nombreux ennuis en soufflant des bourrasques.",
+    "cobblemon.species.rotom-frost.desc": "Ce Pok\u00c3\u00a9mon a pris cette forme en se cachant dans un placard h\u00c3\u00a9t\u00c3\u00a9roclite aux mat\u00c3\u00a9riaux inconnus. De nature espi\u00c3\u00a8gle, il cause de nombreux ennuis avec le givre qu'il produit.",
+    "cobblemon.species.rotom-mow.desc": "Ce Pok\u00c3\u00a9mon a pris cette forme en se cachant dans une brouette \u00c3\u00a9trange aux m\u00c3\u00a9canismes myst\u00c3\u00a9rieux. De nature espi\u00c3\u00a8gle, il cause de nombreux ennuis en fauchant la v\u00c3\u00a9g\u00c3\u00a9tation.",
+    "cobblemon.ui.pokedex.info.form.heat": "Chaleur",
+    "cobblemon.ui.pokedex.info.form.wash": "Lavage",
+    "cobblemon.ui.pokedex.info.form.fan": "H\u00c3\u00a9lice",
+    "cobblemon.ui.pokedex.info.form.frost": "Froid",
+    "cobblemon.ui.pokedex.info.form.mow": "Tonte"
+}

@@ -1,0 +1,64 @@
+{
+    "portraitScale": 1.25,
+    "portraitTranslation": [ 0, 0.0, 0 ],
+    "profileScale": 0.7,
+    "profileTranslation": [ 0, 0.7, 0 ],
+    "animations": {
+      "faint": "q.bedrock_primary('gulpin', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('gulpin', 'cry')",
+      "physical": "q.bedrock_stateful('gulpin', 'physical')",
+      "special": "q.bedrock_stateful('gulpin', 'special')",
+      "status": "q.bedrock_stateful('gulpin', 'status')",
+      "howl": "q.bedrock_stateful('gulpin', 'special')",
+      "recoil": "q.bedrock_stateful('gulpin', 'recoil')"
+    },
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('gulpin', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('gulpin', 'blink')",
+          "q.bedrock_quirk('gulpin', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
+       ]
+      },
+      "battle": {
+        "poseName": "battle_idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('gulpin', 'battle_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('gulpin', 'blink')"
+       ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": [
+          "q.bedrock('gulpin', 'ground_walk')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('gulpin', 'blink')",
+          "q.bedrock_quirk('gulpin', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
+       ]
+      },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": ["SLEEP"],
+        "animations": [
+          "q.bedrock('gulpin', 'sleep')"
+        ]
+      }
+    }
+  }

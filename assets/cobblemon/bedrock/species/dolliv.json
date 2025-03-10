@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:dolliv",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dolliv",
+      "model": "cobblemon:dolliv.geo",
+      "texture": "cobblemon:textures/pokemon/dolliv/dolliv.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:dolliv",
+      "model": "cobblemon:dolliv.geo",
+      "texture": "cobblemon:textures/pokemon/dolliv/dolliv_shiny.png",
+      "layers": []
+    }
+  ]
+}

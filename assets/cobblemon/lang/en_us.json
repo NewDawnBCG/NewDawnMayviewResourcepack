@@ -1,0 +1,16 @@
+{
+    "cobblemon.battle.activate.snaptrap": "Snap Trap activated!",
+    "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
+    "cobblemon.species.rotom-heat.desc": "A form in which Rotom lurks within a strange cauldron. The cauldron's origin is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble with the flames it spits.",
+    "cobblemon.species.rotom-wash.desc": "A form in which Rotom lurks within an odd bureau. The bureau's purpose is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble by splashing cold water everywhere.",
+    "cobblemon.species.rotom-fan.desc": "A form in which Rotom lurks within a mysterious contraption. The contraption's purpose is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble by stirring up powerful winds.",
+    "cobblemon.species.rotom-frost.desc": "A form in which Rotom lurks within a bizarre cupboard. The cupboard's composition is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble by frosting everything over.",
+    "cobblemon.species.rotom-mow.desc": "A form in which Rotom lurks within a misshapen wheelbarrow. The wheelbarrow's mechanisms are bizarre. It's a bothersome Pok\u00c3\u00a9mon, causing trouble by mowing down grass and trees.",
+    "cobblemon.ui.pokedex.info.form.heat": "Heat",
+    "cobblemon.ui.pokedex.info.form.wash": "Wash",
+    "cobblemon.ui.pokedex.info.form.fan": "Fan",
+    "cobblemon.ui.pokedex.info.form.frost": "Frost",
+    "cobblemon.ui.pokedex.info.form.mow": "Mow",
+    "cobblemon.species.ogerponeock.desc2": "Undiscovered",
+    "cobblemon.move.ivycudgel": "Ivy Cudgel"
+}
