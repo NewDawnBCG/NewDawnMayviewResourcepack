@@ -1,5 +1,5 @@
 # NewDawnDatapack
-Custom Cobblemon Datapack for the New Dawn BCG+ Server! 
+Custom Cobblemon Resource Pack for the New Dawn BCG+ Server! 
 This pack contains the TEXTURES of all added pokemon, NOT the spawning files.
 
  Many thanks to the different mod authors that contribute to this datapack! 
