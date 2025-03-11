@@ -1,14 +1,4 @@
 {
-    "pokemon.typenull.cry": {
-        "sounds": [
-            "cobblemon:pokemon/typenull/typenull"
-        ]
-    },
-    "pokemon.silvally.cry": {
-        "sounds": [
-            "cobblemon:pokemon/silvally/silvally"
-        ]
-    },
     "pokemon.rotom.cry": {
         "sounds": [
             "cobblemon:pokemon/rotom/rotom_cry"
@@ -54,19 +44,159 @@
             "cobblemon:pokemon/diancie/diancie_cry"
         ]
     },
-    "pokemon.cosmoem.cry": {
-        "sounds": [
-            "cobblemon:pokemon/cosmoem/cosmoem_cry.ogg"
-        ]
-    },
     "pokemon.cosmog.cry": {
         "sounds": [
             "cobblemon:pokemon/cosmog/cosmog_cry.ogg"
         ]
     },
+    "pokemon.cosmoem.cry": {
+        "sounds": [
+            "cobblemon:pokemon/cosmoem/cosmoem_cry.ogg"
+        ]
+    },
     "pokemon.roaringmoon.cry": {
         "sounds": [
             "cobblemon:pokemon/roaringmoon/roaringmoon_cry.ogg"
+        ]
+    },
+    "pokemon.silvally.cry": {
+        "sounds": [
+            "cobblemon:pokemon/silvally/silvally"
+        ]
+    },
+    "pokemon.typenull.cry": {
+        "sounds": [
+            "cobblemon:pokemon/typenull/typenull"
+        ]
+    },
+    "slowbro": {
+        "sounds": [
+            "cobblemon:pokemon/slowbro/slowbro"
+        ]
+    },
+    "slowpoke": {
+        "sounds": [
+            "cobblemon:pokemon/slowpoke/slowpoke"
+        ]
+    },
+    "slowking": {
+        "sounds": [
+            "cobblemon:pokemon/slowking/slowking"
+        ]
+    },
+    "garchomp": {
+        "sounds": [
+            "cobblemon:pokemon/garchomp/garchomp"
+        ]
+    },
+    "gastly": {
+        "sounds": [
+            "cobblemon:pokemon/gastly/gastly"
+        ]
+    },
+    "gengar": {
+        "sounds": [
+            "cobblemon:pokemon/gengar/gengar"
+        ]
+    },
+    "gible": {
+        "sounds": [
+            "cobblemon:pokemon/gible/gible"
+        ]
+    },
+    "gligar": {
+        "sounds": [
+            "cobblemon:pokemon/gligar/gligar"
+        ]
+    },
+    "gliscor": {
+        "sounds": [
+            "cobblemon:pokemon/gliscor/gliscor"
+        ]
+    },
+    "haunter": {
+        "sounds": [
+            "cobblemon:pokemon/haunter/haunter"
+        ]
+    },
+    "incineroar": {
+        "sounds": [
+            "cobblemon:pokemon/incineroar/incineroar"
+        ]
+    },
+    "kangaskhan": {
+        "sounds": [
+            "cobblemon:pokemon/kangaskhan/kangaskhan"
+        ]
+    },
+    "marshtomp": {
+        "sounds": [
+            "cobblemon:pokemon/marshtomp/marshtomp"
+        ]
+    },
+    "megagarchomp": {
+        "sounds": [
+            "cobblemon:pokemon/megagarchomp/megagarchomp"
+        ]
+    },
+    "megagengar": {
+        "sounds": [
+            "cobblemon:pokemon/megagengar/megagengar"
+        ]
+    },
+    "megakangaskhan": {
+        "sounds": [
+            "cobblemon:pokemon/megakangaskhan/megakangaskhan"
+        ]
+    },
+    "megascizor": {
+        "sounds": [
+            "cobblemon:pokemon/megascizor/megascizor"
+        ]
+    },
+    "megaslowbro": {
+        "sounds": [
+            "cobblemon:pokemon/megaslowbro/megaslowbro"
+        ]
+    },
+    "mudkip": {
+        "sounds": [
+            "cobblemon:pokemon/mudkip/mudkip"
+        ]
+    },
+    "scizor": {
+        "sounds": [
+            "cobblemon:pokemon/scizor/scizor"
+        ]
+    },
+    "swampert": {
+        "sounds": [
+            "cobblemon:pokemon/swampert/swampert"
+        ]
+    },
+    "gengarlaugh": {
+        "sounds": [
+            "cobblemon:pokemon/gengar/gengarlaugh"
+        ]
+    },
+    "gabite": {
+        "sounds": [
+            "cobblemon:pokemon/gabite/gabite"
+        ]
+    },
+    "kangaskhanbaby": {
+        "sounds": [
+            "cobblemon:pokemon/kangaskhan/kangaskhanbaby"
+        ]
+    },
+    "litten": {
+        "sounds": [
+            "cobblemon:pokemon/litten/litten"
+        ]
+    },
+    "torracat": {
+        "sounds": [
+            "cobblemon:pokemon/torracat/torracat"
         ]
     }
 }
