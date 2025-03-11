@@ -30,3 +30,4 @@ Many thanks to the different mod authors that contribute to this datapack!
 - pokemans
 - Rotom Appliances
 - SyntheticPokemon
+- Hydro's Reanimons
