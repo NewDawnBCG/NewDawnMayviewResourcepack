@@ -61,17 +61,17 @@
     },
     "pokemon.cosmog.cry": {
         "sounds": [
-            "cobblemon:pokemon/cosmog/cosmog_cry.ogg"
+            "cobblemon:pokemon/cosmog/cosmog_cry"
         ]
     },
     "pokemon.cosmoem.cry": {
         "sounds": [
-            "cobblemon:pokemon/cosmoem/cosmoem_cry.ogg"
+            "cobblemon:pokemon/cosmoem/cosmoem_cry"
         ]
     },
     "pokemon.roaringmoon.cry": {
         "sounds": [
-            "cobblemon:pokemon/roaringmoon/roaringmoon_cry.ogg"
+            "cobblemon:pokemon/roaringmoon/roaringmoon_cry"
         ]
     },
     "garchomp": {
