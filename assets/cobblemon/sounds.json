@@ -1,4 +1,19 @@
 {
+    "pokemon.silvally.cry": {
+        "sounds": [
+            "cobblemon:pokemon/silvally/silvally"
+        ]
+    },
+    "pokemon.typenull.cry": {
+        "sounds": [
+            "cobblemon:pokemon/typenull/typenull"
+        ]
+    },
+    "gabite": {
+        "sounds": [
+            "cobblemon:pokemon/gabite/gabite"
+        ]
+    },
     "pokemon.rotom.cry": {
         "sounds": [
             "cobblemon:pokemon/rotom/rotom_cry"
@@ -57,31 +72,6 @@
     "pokemon.roaringmoon.cry": {
         "sounds": [
             "cobblemon:pokemon/roaringmoon/roaringmoon_cry.ogg"
-        ]
-    },
-    "pokemon.silvally.cry": {
-        "sounds": [
-            "cobblemon:pokemon/silvally/silvally"
-        ]
-    },
-    "pokemon.typenull.cry": {
-        "sounds": [
-            "cobblemon:pokemon/typenull/typenull"
-        ]
-    },
-    "slowbro": {
-        "sounds": [
-            "cobblemon:pokemon/slowbro/slowbro"
-        ]
-    },
-    "slowpoke": {
-        "sounds": [
-            "cobblemon:pokemon/slowpoke/slowpoke"
-        ]
-    },
-    "slowking": {
-        "sounds": [
-            "cobblemon:pokemon/slowking/slowking"
         ]
     },
     "garchomp": {
@@ -169,19 +159,34 @@
             "cobblemon:pokemon/scizor/scizor"
         ]
     },
+    "slowbro": {
+        "sounds": [
+            "cobblemon:pokemon/slowbro/slowbro"
+        ]
+    },
+    "slowking": {
+        "sounds": [
+            "cobblemon:pokemon/slowking/slowking"
+        ]
+    },
+    "slowpoke": {
+        "sounds": [
+            "cobblemon:pokemon/slowpoke/slowpoke"
+        ]
+    },
     "swampert": {
         "sounds": [
             "cobblemon:pokemon/swampert/swampert"
         ]
     },
+    "pokemon.palkia.palkia_cry": {
+        "sounds": [
+            "cobblemon:pokemon/palkia/palkia_cry"
+        ]
+    },
     "gengarlaugh": {
         "sounds": [
             "cobblemon:pokemon/gengar/gengarlaugh"
-        ]
-    },
-    "gabite": {
-        "sounds": [
-            "cobblemon:pokemon/gabite/gabite"
         ]
     },
     "kangaskhanbaby": {

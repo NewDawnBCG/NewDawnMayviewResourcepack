@@ -1,127 +1,51 @@
 {
-  "head": "head",
-  "portraitScale": 1.15,
-  "portraitTranslation": [ -0.2, 0.8, 0 ],
-  "profileScale": 0.6,
-  "profileTranslation": [ 0, 0.8, 0 ],
-  "cry":  "bedrock(gliscor, cry)",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.4, 0.4, 0.0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 0.7, 0.0],
+  "rootBone": "gliscor",
+  "animations": {
+    "cry": "q.bedrock_stateful('gliscor', 'cry')"
+  },
   "poses": {
-  "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
       "isBattle": true,
-	  "isTouchingWater": false,
-      "animations": [
-        "look",
-		"bedrock(gliscor, battle_idle)"
-	  ],
+      "animations": ["q.look('head')", "q.bedrock('gliscor', 'battle_idle')"],
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        }
-      ]
+	  "q.bedrock_quirk('gliscor', 'blink')"]
     },
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE"
-      ],
-      "isBattle": false,	  
-      "isTouchingWater": false,
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('gliscor', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
       "animations": [
-        "look",
-        "bedrock(gliscor, ground_idle)"
+        "q.look('head')",
+        "q.bedrock('gliscor', 'ground_walk')"
       ],
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        },
-        {
-          "name": "tongue",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 40,
-          "maxSecondsBetweenOccurrences": 80,
-          "animations": ["bedrock(gliscor, tongue_quirk)"]
-        }
-      ]
+	  "q.bedrock_quirk('gliscor', 'blink')"]
     },
-  "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
+	"hover": {
+      "poseTypes": ["HOVER"],
       "animations": [
-        "bedrock(gliscor, ground_walk)"
+        "q.look('head')",
+        "q.bedrock('gliscor', 'air_idle')"
       ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        }
-		]
-   },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
-      "animations": [   
-        "bedrock(gliscor, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        }
-		]
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
     },
-    "flying": {
-      "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
-      "animations": [   
-        "bedrock(gliscor, air_fly)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        }
-		]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [ "FLOAT" ],
-      "animations": [   
-        "bedrock(gliscor, air_fly)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gliscor, blink)"]
-        }
-		]
+	"fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gliscor', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
     }
   }
 }

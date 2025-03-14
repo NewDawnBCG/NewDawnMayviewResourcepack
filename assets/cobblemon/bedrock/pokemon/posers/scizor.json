@@ -1,120 +1,59 @@
 {
-  "head": "head_pivot",
-  "portraitScale": 1.15,
-  "portraitTranslation": [ -0.2, 0.8, 0 ],
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.3, 2.3, 0.0],
   "profileScale": 0.6,
-  "profileTranslation": [ 0, 0.8, 0 ],
-  "cry":  "bedrock(scizor, cry)",
+  "profileTranslation": [0.0, 0.9, 0.0],
+  "rootBone": "scizor",
+  "animations": {
+    "cry": "q.bedrock_stateful('scizor', 'cry')",
+	"status": "q.bedrock_stateful('scizor', 'cry', q.curve('symmetrical_wide'))",
+	"recoil": "q.bedrock_stateful('scizor', 'recoil')",
+	"faint": "q.bedrock_stateful('scizor', 'faint', q.curve('symmetrical_wide'))"
+  },
   "poses": {
-  "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
       "isBattle": true,
-	  "isTouchingWater": false,
-      "animations": [
-        "look",
-		"bedrock(scizor, battle_idle)"
-	  ],
+      "animations": ["q.look('head_pivot')", "q.bedrock('scizor', 'battle_idle')"],
+	  "namedAnimations": {
+			"physical": "q.bedrock_primary('scizor', 'physical', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_primary('scizor', 'physical', q.curve('symmetrical_wide'))"		
+          },
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-      ]
+	  "q.bedrock_quirk('scizor', 'blink')",
+	  "q.bedrock_quirk('scizor', 'snap_quirk', 6, 32, 1)"]
     },
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE"
-      ],
-      "isBattle": false,	  
-      "isTouchingWater": false,
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head_pivot')", "q.bedrock('scizor', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('scizor', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
       "animations": [
-        "look",
-        "bedrock(scizor, ground_idle)"
+        "q.look('head_pivot')",
+        "q.bedrock('scizor', 'air_fly')"
       ],
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-      ]
+	  "q.bedrock_quirk('scizor', 'blink')"]
     },
-  "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
+	"hover": {
+      "poseTypes": ["HOVER"],
       "animations": [
-        "bedrock(scizor, air_fly)"
+        "q.look('head_pivot')",
+        "q.bedrock('scizor', 'air_idle')"
       ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-		]
-   },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
-      "animations": [   
-        "bedrock(scizor, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-		]
+      "quirks": ["q.bedrock_quirk('scizor', 'blink')"]
     },
-    "flying": {
-      "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
-      "animations": [   
-        "bedrock(scizor, air_fly)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-		]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [ "FLOAT" ],
-      "animations": [   
-        "bedrock(scizor, air_fly)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(scizor, blink)"]
-        }
-		]
+	"fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head_pivot')",
+        "q.bedrock('scizor', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('scizor', 'blink')"]
     }
   }
 }

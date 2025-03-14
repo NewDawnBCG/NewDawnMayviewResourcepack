@@ -1,134 +1,44 @@
 {
-  "head": "head",
-  "portraitScale": 1.15,
-  "portraitTranslation": [ -0.2, 0.8, 0 ],
-  "profileScale": 0.6,
-  "profileTranslation": [ 0, 0.8, 0 ],
-  "cry":  "bedrock(garchomp, cry)",
+  "portraitScale": 1.65,
+  "portraitTranslation": [-0.76, 1.66, 0],
+  "profileScale": 0.54,
+  "profileTranslation": [0.0, 0.94, 0.0],
+  "rootBone": "garchomp",
+  "animations": {
+    "cry": "q.bedrock_stateful('garchomp', 'cry')"
+  },
   "poses": {
-  "battle-idle": {
+    "battle-idle": {
       "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
+      "poseTypes": ["STAND"],
       "isBattle": true,
-	  "isTouchingWater": false,
-      "animations": [
-        "look",
-		"bedrock(garchomp, battle_idle)"
-	  ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        },
-        {
-          "name": "stomp",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 40,
-          "maxSecondsBetweenOccurrences": 80,
-          "animations": ["bedrock(garchomp, stomp_quirk)"]
-        }
-      ]
+      "animations": ["q.look('head')", "q.bedrock('garchomp', 'battle_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('garchomp', 'blink')",
+		"q.bedrock_quirk('garchomp', 'stomp_quirk')"
+		]
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE"
-      ],
-      "isBattle": false,	  
-      "isTouchingWater": false,
-      "animations": [
-        "look",
-        "bedrock(garchomp, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        },
-        {
-          "name": "stomp",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 40,
-          "maxSecondsBetweenOccurrences": 80,
-          "animations": ["bedrock(garchomp, stomp_quirk)"]
-        }
-      ]
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('garchomp', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('garchomp', 'blink')"
+		]
+	  
     },
-  "walking": {
+    "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
+      "poseTypes": ["WALK"],
       "animations": [
-        "bedrock(garchomp, ground_walk)"
-      ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        }
-		]
-   },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
-      "animations": [   
-        "bedrock(garchomp, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        }
-		]
+        "q.bedrock('garchomp', 'ground_walk')"
+      ]
     },
     "flying": {
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
-      "animations": [   
-        "bedrock(garchomp, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        }
-		]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [ "FLOAT" ],
-      "animations": [   
-        "bedrock(garchomp, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(garchomp, blink)"]
-        }
-		]
+      "poseTypes": ["FLY", "HOVER", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('garchomp', 'air_idle')"]
     }
   }
 }

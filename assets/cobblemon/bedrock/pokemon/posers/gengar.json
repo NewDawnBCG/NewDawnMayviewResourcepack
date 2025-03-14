@@ -3,109 +3,48 @@
   "portraitTranslation": [ -0.2, 0.8, 0 ],
   "profileScale": 0.6,
   "profileTranslation": [ 0, 0.8, 0 ],
-  "cry":  "bedrock(gengar, cry)",
-  "poses": {
-  "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE",
-      "FLOAT"
-      ],
-      "animations": [
-        "bedrock(gengar, ground_idle)"
-      ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gengar, blink)"]
-        },
-        {
-          "name": "laugh",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 40,
-          "maxSecondsBetweenOccurrences": 80,
-          "animations": ["bedrock(gengar, laugh_quirk)"]
-        }
-		]
+   "animations": {
+  "cry": "q.bedrock_stateful('gengar', 'cry')"
   },
-  "walking": {
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('gengar', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('gengar', 'blink')",
+		"q.bedrock_quirk('gengar', 'laugh_quirk')"
+		]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('gengar', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('gengar', 'blink')"
+		]
+	  
+    },
+    "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
+      "poseTypes": ["WALK"],
       "animations": [
-        "bedrock(gengar, ground_walk)"
-      ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gengar, blink)"]
-        }
-		]
-   },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
-      "animations": [   
-        "bedrock(gengar, air_idle)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gengar, blink)"]
-        }
-		]
+        "q.bedrock('gengar', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseName": "walking",
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('gengar', 'sleep')"
+      ]
     },
     "flying": {
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
-      "animations": [   
-        "bedrock(gengar, ground_walk)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gengar, blink)"]
-        }
-		]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [ "SLEEP" ],
-      "animations": [   
-        "bedrock(gengar, sleep)" ]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [ "FLOAT" ],
-      "animations": [   
-        "bedrock(gengar, ground_walk)" ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(gengar, blink)"]
-        }
-		]
+      "poseTypes": ["FLY", "HOVER", "SWIM"],
+      "animations": ["q.bedrock('gengar', 'air_idle')"]
     }
+   }
   }
-}

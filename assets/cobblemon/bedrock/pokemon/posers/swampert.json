@@ -1,110 +1,52 @@
 {
-  "head": "head",
-  "portraitScale": 2.65,
-  "portraitTranslation": [ -0.95, -0.1, 0 ],
-  "profileScale": 0.9,
-  "profileTranslation": [ 0, 0.4, 0 ],
-  "cry":  "bedrock(swampert, cry)",
+  "portraitScale": 1.1,
+  "portraitTranslation": [-0.5, 1.2, 0],
+  "profileScale": 0.46,
+  "profileTranslation": [0.0, 0.95, 0.0],
+  "rootBone": "swampert",
+  "animations": {
+    "cry": "q.bedrock_stateful('swampert', 'cry')"
+  },
   "poses": {
     "battle-idle": {
       "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
+      "poseTypes": ["STAND"],
       "isBattle": true,
-	  "isTouchingWater": false,
-      "animations": [
-        "look",
-		"bedrock(swampert, battle_idle)"
-	  ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(swampert, blink)"]
-        }
-      ]
+      "animations": ["q.look('head_ai')", "q.bedrock('swampert', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		]
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE"
-      ],
-      "isBattle": false,	  
-      "isTouchingWater": false,
-      "animations": [
-        "look",
-        "bedrock(swampert, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(swampert, blink)"]
-        }
-      ]
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('swampert', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		]
+	  
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
-      "isTouchingWater": false,
-      "animations": [ "bedrock(swampert, ground_walk)" ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(swampert, blink)"]
-        }
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('swampert', 'ground_walk')"
       ]
     },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK","SWIM" ],
-      "animations": [ "bedrock(swampert, water_swim, true)" ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(swampert, blink)"]
-        }
+	"float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'ground_idle')"
       ]
     },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND","FLOAT" ],
-      "animations": [ 
-      "look",
-	  "bedrock(swampert, water_idle, true)" 
-	  ],
-      "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(swampert, blink)"]
-        }
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'ground_walk')"
       ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [ "SLEEP" ],
-      "animations": [ "bedrock(swampert, sleep)" ]
     }
   }
 }

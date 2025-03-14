@@ -1,72 +1,65 @@
 {
-  "head": "head",
-  "portraitScale": 1.15,
-  "portraitTranslation": [ -0.2, 0.8, 0 ],
-  "profileScale": 0.6,
-  "profileTranslation": [ 0, 0.8, 0 ],
-  "cry":  "bedrock(incineroar, cry)",
+  "portraitScale": 1.67,
+  "portraitTranslation": [-0.26, 2.99, 0],
+  "profileScale": 0.41,
+  "profileTranslation": [0, 1.09, 0],
+  "rootBone": "incineroar",
+  "animations": {
+    "cry": "q.bedrock_stateful('incineroar', 'cry')",
+    "recoil": "q.bedrock_stateful('incineroar', 'recoil')",
+	"darkestlariat": "q.bedrock_primary('incineroar', 'darkestlariat', q.curve('symmetrical_wide'))"
+  },
   "poses": {
-  "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
+    "battle-standing": {
+      "poseTypes": ["STAND"],
       "isBattle": true,
-	  "isTouchingWater": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('incineroar', 'battle_cry')"
+      },
       "animations": [
-        "look",
-		"bedrock(incineroar, battle_idle)"
-	  ],
+        "q.look('head', 1, 1, 10, -35)",
+        "q.bedrock('incineroar', 'battle_idle')"
+      ],
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(incineroar, blink)"]
-        }
+        "q.bedrock_quirk('incineroar', 'blink')",
+        "q.bedrock_quirk('incineroar', q.array('look_quirk', 'laugh_quirk'), 8, 30, 1)",
+        "q.bedrock_quirk('incineroar', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
       ]
     },
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-      "STAND",
-      "NONE",
-      "PORTRAIT",
-      "PROFILE"
-      ],
-      "isBattle": false,	  
-      "isTouchingWater": false,
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
       "animations": [
-        "look",
-        "bedrock(incineroar, ground_idle)"
+        "q.look('head', 1, 1, 10, -35)",
+        "q.bedrock('incineroar', 'ground_idle')"
       ],
       "quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(incineroar, blink)"]
-        }
+        "q.bedrock_quirk('incineroar', 'blink')",
+        "q.bedrock_quirk('incineroar', q.array('belt_quirk', 'look_quirk', 'laugh_quirk'), 20, 60, 1)",
+        "q.bedrock_quirk('incineroar', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
       ]
     },
-  "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
       "animations": [
-        "bedrock(incineroar, ground_walk)"
+        "q.look('head', 1, 1, 10, -35)",
+        "q.bedrock('incineroar', 'ground_walk')"
       ],
-		"quirks": [
-        {
-          "name": "blink",
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 8,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": ["bedrock(incineroar, blink)"]
-        }
-		]
+      "quirks": [
+        "q.bedrock_quirk('incineroar', 'blink')",
+        "q.bedrock_quirk('incineroar', q.array('look_quirk', 'laugh_quirk'), 8, 30, 1)",
+        "q.bedrock_quirk('incineroar', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('incineroar', 'sleep')"],
+      "quirks": [
+        "q.bedrock_quirk('incineroar', q.array('lefteartwitch_quirk', 'righteartwitch_quirk'), 6, 20, 1)"
+      ]
     }
   }
 }
