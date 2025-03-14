@@ -1,1 +1,6 @@
-{"pack": {"pack_format": 15, "description": "Combined pack created with CobblemonResolver"}}
+{
+  "pack": {
+    "pack_format": 15,
+    "description": ["Resource pack used for ",{"text":"New Dawn","color":"#ff65c6"}]
+  }
+}
