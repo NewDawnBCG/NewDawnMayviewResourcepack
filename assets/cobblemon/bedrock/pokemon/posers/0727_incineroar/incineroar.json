@@ -6,8 +6,7 @@
   "rootBone": "incineroar",
   "animations": {
     "cry": "q.bedrock_stateful('incineroar', 'cry')",
-    "recoil": "q.bedrock_stateful('incineroar', 'recoil')",
-	"darkestlariat": "q.bedrock_primary('incineroar', 'darkestlariat', q.curve('symmetrical_wide'))"
+    "recoil": "q.bedrock_stateful('incineroar', 'recoil')"
   },
   "poses": {
     "battle-standing": {
