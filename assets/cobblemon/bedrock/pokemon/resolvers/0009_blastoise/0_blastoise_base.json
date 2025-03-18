@@ -4,14 +4,14 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blastoise2",
-      "model": "cobblemon:blastoise2.geo",
-      "texture": "cobblemon:textures/pokemon/0009_blastoise2/blastoise2.png",
+      "poser": "cobblemon:blastoise",
+      "model": "cobblemon:blastoise.geo",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise.png",
       "layers": []
     },
     {
-      "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/0009_blastoise2/blastoise2_shiny.png"
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_shiny.png"
     }
   ]
 }
