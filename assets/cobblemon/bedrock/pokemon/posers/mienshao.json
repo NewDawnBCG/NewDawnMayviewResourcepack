@@ -23,8 +23,7 @@
           "q.bedrock('mienshao', 'ground_idle')"
         ],
         "quirks": [
-          "q.bedrock_quirk('mienshao', 'blink')",
-          "q.bedrock_quirk('mienshao', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
+          "q.bedrock_quirk('mienshao', 'blink')"      
        ]
       },
       "battle": {
