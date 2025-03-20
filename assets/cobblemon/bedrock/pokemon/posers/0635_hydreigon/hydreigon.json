@@ -6,27 +6,27 @@
   "rootBone": "hydreigon",
   "animations": {
     "cry": "q.bedrock_stateful('hydreigon', 'cry')",
-	"special": "q.bedrock_primary('hydreigon', 'special', q.curve('symmetrical_wide'))",
-	"physical": "q.bedrock_primary('hydreigon', 'special', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('hydreigon', 'special', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('hydreigon', 'special', q.curve('symmetrical_wide'))",
     "recoil": "q.bedrock_stateful('hydreigon', 'recoil')"
   },
   "poses": {
-	  "battle-standing": {
+    "battle-standing": {
       "poseTypes": ["STAND"],
       "isBattle": true,
       "animations": [
         "q.look('head_ai')",
-		"q.bedrock('hydreigon', 'battle_idle')",
-        "q.bedrock('hydreigon', 'wing_battle')"        
+        "q.bedrock('hydreigon', 'battle_idle')",
+        "q.bedrock('hydreigon', 'wing_battle')"
       ]
     },
-	"standing": {
+    "standing": {
       "poseTypes": ["STAND"],
       "isBattle": false,
       "animations": [
         "q.look('head_ai')",
-		"q.bedrock('hydreigon', 'air_idle')",
-        "q.bedrock('hydreigon', 'wing_motion')"        
+        "q.bedrock('hydreigon', 'air_idle')",
+        "q.bedrock('hydreigon', 'wing_motion')"
       ]
     },
     "hover": {

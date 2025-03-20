@@ -203,5 +203,20 @@
         "sounds": [
             "cobblemon:pokemon/torracat/torracat"
         ]
+    },
+    "pokemon.deino.deino_cry": {
+        "sounds": [
+            "cobblemon:pokemon/deino/deino_cry"
+        ]
+    },
+    "pokemon.zweilous.zweilous_cry": {
+        "sounds": [
+            "cobblemon:pokemon/zweilous/zweilous_cry"
+        ]
+    },
+    "pokemon.hydreigon.hydreigon_cry": {
+        "sounds": [
+            "cobblemon:pokemon/hydreigon/hydreigon_cry"
+        ]
     }
 }
