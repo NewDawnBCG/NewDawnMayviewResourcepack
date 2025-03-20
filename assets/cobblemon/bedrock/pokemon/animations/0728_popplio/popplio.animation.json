@@ -307,8 +307,8 @@
 				}
 			},
 			"sound_effects": {
-			"0.04": {
-				"effect": "pokemon.popplio.cry"
+				"0.04": {
+					"effect": "pokemon.popplio.cry"
 				}
 			}
 		},
