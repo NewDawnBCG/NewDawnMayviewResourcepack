@@ -48,7 +48,7 @@
       "poseTypes": ["STAND"],
       "isTouchingWater": true,
       "animations": [
-                "q.bedrock('goldeen', 'water_idle')"
+        "q.bedrock('goldeen', 'water_idle')"
       ],
       "quirks": [
         "q.bedrock_quirk('goldeen', 'blink')"
@@ -64,7 +64,7 @@
       "poseTypes": ["WALK"],
       "isTouchingWater": true,
       "animations": [
-                "q.bedrock('goldeen', 'water_swim')"
+        "q.bedrock('goldeen', 'water_swim')"
       ],
       "quirks": [
         "q.bedrock_quirk('goldeen', 'blink')"
