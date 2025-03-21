@@ -17,17 +17,19 @@ If requested by the mod author, content will be removed.
 Many thanks to the different mod authors that contribute to this datapack! 
 
 - StarsMons
-- CloudMons
-- MissingMons
-- Cobblemon Future Support
-- Lackingmons
-- Genomons
-- MundialMons
-- Keldeo
-- Eon Duo
-- HiddenMons
-- Nadymons
-- pokemans
-- Rotom Appliances
-- SyntheticPokemon
-- Hydro's Reanimons
+- [CloudMons](https://modrinth.com/datapack/cloudmons)
+- [MissingMons](https://modrinth.com/datapack/missingmons-cobblemon)
+- [Cobblemon Future Support](https://modrinth.com/datapack/cobblemon-future-support)
+- [LackingMons](https://modrinth.com/datapack/lackingmons)
+- [GenoMons](https://modrinth.com/datapack/genomons)
+- [MundialMons](https://modrinth.com/datapack/mundialmons)
+- [Keldeo](https://discord.com/channels/934267676354834442/1227028082976620565)
+- [Eon Duo](https://modrinth.com/datapack/eon-duo-cobblemon)
+- [HiddenMons](https://modrinth.com/datapack/hiddenmons-cobblemon)
+- [Nadymons3](https://modrinth.com/datapack/nadymons3)
+- [Pokemans](https://modrinth.com/datapack/cobblemon-pokemans)
+- [Rotom Appliances](https://modrinth.com/datapack/rotom-appliances)
+- [SyntheticPokemon](https://modrinth.com/datapack/synthetic-pokemon-pack)
+- [Hydro's Reanimodels](https://modrinth.com/datapack/hydro-reanimodel-pack)
+- [CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)
+- [Lukidon](https://linktr.ee/lukidon)

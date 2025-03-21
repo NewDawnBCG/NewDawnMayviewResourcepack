@@ -4,14 +4,14 @@ StarsMons
 CloudMons
 MissingMons
 Cobblemon Future Support
-Lackingmons
-Genomons
+LackingMons
+GenoMons
 MundialMons
 Keldeo
 Eon Duo
 HiddenMons
-Nadymons
-pokemans
+Nadymons3
+Pokemans
 Rotom Appliances
 SyntheticPokemon
 Hydro's Reanimodels
