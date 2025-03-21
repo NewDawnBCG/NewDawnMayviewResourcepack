@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bcg_smp:item/joe_coin"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "trophies:end_eye_trophy" },
+    { "predicate": { "custom_model_data": 2 }, "model": "trophies:nether_eye_trophy" },
+    { "predicate": { "custom_model_data": 3 }, "model": "trophies:rogue_eye_trophy" },
+    { "predicate": { "custom_model_data": 4 }, "model": "trophies:cold_eye_trophy" },
+    { "predicate": { "custom_model_data": 5 }, "model": "trophies:evil_eye_trophy" },
+    { "predicate": { "custom_model_data": 6 }, "model": "trophies:wither_eye_trophy" },
+    { "predicate": { "custom_model_data": 7 }, "model": "trophies:old_eye_trophy" },
+    { "predicate": { "custom_model_data": 8 }, "model": "trophies:witch_eye_trophy" },
+    { "predicate": { "custom_model_data": 9 }, "model": "trophies:black_eye_trophy" },
+    { "predicate": { "custom_model_data": 10 }, "model": "trophies:corrupted_eye_trophy" },
+    { "predicate": { "custom_model_data": 11 }, "model": "trophies:lost_eye_trophy" },
+    { "predicate": { "custom_model_data": 12 }, "model": "trophies:magical_eye_trophy" },
+    { "predicate": { "custom_model_data": 13 }, "model": "trophies:cryptic_eye_trophy" },
+    { "predicate": { "custom_model_data": 14 }, "model": "trophies:dragon_trophy" },
+    { "predicate": { "custom_model_data": 15 }, "model": "trophies:wither_trophy" }
+  ]
+}

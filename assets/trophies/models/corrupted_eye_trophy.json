@@ -1,0 +1,7 @@
+{
+	"credit": "Made by deuli in BlockBench",
+	"parent": "trophies:end_eye_trophy",
+	"textures": {
+		"1": "trophies:item/eyes/corrupted"
+	}
+}
