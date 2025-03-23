@@ -1,0 +1,14 @@
+
+{
+  "species": "cobblemon:zebstrika",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:zebstrika",
+      "model": "cobblemon:zebstrika.geo",
+      "texture": "cobblemon:textures/pokemon/zebstrika/zebstrika.png",
+      "layers": []
+    }
+  ]
+}
