@@ -1,0 +1,203 @@
+{
+    "portraitScale": 1.2,
+    "portraitTranslation": [-0.5,1.4,0],
+    "profileScale": 0.6,
+    "profileTranslation": [0, 0.8, 0],
+    "rootBone": "samurott",
+    "head": "head_ai",
+    "animations": {
+        "recoil": "q.bedrock_stateful('samurott','recoil')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "animations": [
+                "look",
+                "bedrock(samurott,ground_idle)"
+            ],
+            "isBattle": false,
+            "isTouchingWater": false,
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 15, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        },
+
+        "battle_standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "transformTicks": 10,
+            "animations": [
+                "look",
+                "bedrock(samurott,battle_pose)"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 15, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','battle_cry')",
+                "faint": "q.bedrock_primary('samurott','faint')",
+                "status": "q.bedrock_primary('samurott','status', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('samurott','special', q.curve('symmetrical_wide'))",
+                "physical": "q.bedrock_primary('samurott','physical', q.curve('symmetrical_wide'))",
+                "megahorn": "q.bedrock_primary('samurott','horn', q.curve('symmetrical_wide'))",
+                "aquajet": "q.bedrock_primary('samurott','horn', q.curve('symmetrical_wide'))",
+                "waterfall": "q.bedrock_primary('samurott','special', q.curve('symmetrical_wide'))"
+            }
+        },
+
+        "battle_surface": {
+            "poseName": "battle_surface",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": true,
+            "transformTicks": 10,
+            "animations": [
+                "bedrock(samurott,battle_water)",
+                "q.look('head_ai')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 15, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','battle_cry')",
+                "faint": "q.bedrock_primary('samurott','faint_water')",
+                "status": "q.bedrock_primary('samurott','status_water', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('samurott','special_water', q.curve('symmetrical_wide'))",
+                "physical": "q.bedrock_primary('samurott','physical_water', q.curve('symmetrical_wide'))",
+                "megahorn": "q.bedrock_primary('samurott','horn_water', q.curve('symmetrical_wide'))",
+                "aquajet": "q.bedrock_primary('samurott','horn_water', q.curve('symmetrical_wide'))",
+                "waterfall": "q.bedrock_primary('samurott','special_water', q.curve('symmetrical_wide'))"
+            },
+            "transformedParts": [
+            {
+                "part": "body",
+                "position": [0, -2, 0]
+            }
+            ]
+        },
+
+        "battle_swimming": {
+            "poseName": "battle_surface",
+            "poseTypes": ["FLOAT"],
+            "isBattle": true,
+            "transformTicks": 10,
+            "animations": [
+                "bedrock(samurott,battle_water)",
+                "q.look('head_ai')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 15, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','battle_cry')",
+                "faint": "q.bedrock_primary('samurott','faint_water')",
+                "status": "q.bedrock_primary('samurott','status_water', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('samurott','special_water', q.curve('symmetrical_wide'))",
+                "physical": "q.bedrock_primary('samurott','physical_water', q.curve('symmetrical_wide'))",
+                "megahorn": "q.bedrock_primary('samurott','horn_water', q.curve('symmetrical_wide'))",
+                "aquajet": "q.bedrock_primary('samurott','horn_water', q.curve('symmetrical_wide'))",
+                "waterfall": "q.bedrock_primary('samurott','special_water', q.curve('symmetrical_wide'))"
+            },
+            "transformedParts": [
+            {
+                "part": "body",
+                "position": [0, -2, 0]
+            }
+            ]
+        },
+
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": ["WALK"],
+            "isBattle": false,
+            "isTouchingWater": false,
+            "animations": [
+                "look",
+                "bedrock(samurott,ground_walk)"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 10, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        },
+
+        "surface_swim": {
+            "poseName": "surface_swim",
+            "transformTicks": 10,
+            "poseTypes": ["WALk"],
+            "isBattle": false,
+            "isTouchingWater": true,
+            "animations": [
+                "bedrock(samurott,water_swim)",
+                "q.look('head_ai')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 3, 8, 1)"
+            ],
+            "transformedParts": [
+            {
+                "part": "body",
+                "position": [0, -2, 0]
+            }
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        },
+
+        "swimming": {
+            "poseName": "swimming",
+            "transformTicks": 10,
+            "poseTypes": ["SWIM"],
+            "animations": [
+                "bedrock(samurott,water_swim)",
+                "q.look('body')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 3, 8, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        },
+
+        "floating": {
+            "poseName": "floating",
+            "transformTicks": 10,
+            "poseTypes": ["FLOAT"],
+            "isBattle": false,
+            "animations": [
+                "look",
+                "bedrock(samurott,water_idle)"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('samurott','blink', 5, 15, 1)"
+            ],
+            "namedAnimations":{
+                "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        },
+
+        "sleep": {
+            "poseName": "sleep",
+            "transformTicks": 10,
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "bedrock(samurott,sleep)"
+            ],
+            "namedAnimations":{
+            "cry": "q.bedrock_stateful('samurott','cry')"
+            }
+        }
+    }
+}
