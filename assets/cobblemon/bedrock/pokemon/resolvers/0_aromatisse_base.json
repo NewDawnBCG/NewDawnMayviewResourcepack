@@ -6,14 +6,14 @@
      "aspects": [],
      "poser": "cobblemon:aromatisse",
      "model": "cobblemon:aromatisse.geo",
-     "texture": "cobblemon:textures/pokemon/aromatisse/aromatisse.png",
+     "texture": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse.png",
      "layers": []
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "cobblemon:textures/pokemon/aromatisse/aromatisse_shiny.png"
+     "texture": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse_shiny.png"
    }
  ]
 }

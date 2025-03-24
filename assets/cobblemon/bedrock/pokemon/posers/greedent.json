@@ -1,16 +1,11 @@
 {
     "portraitScale": 1.21,
     "portraitTranslation": [ 0, 0.6, 0 ],
-    "profileScale": 0.6,
-    "profileTranslation": [ 0, 0.8, 0 ],
+    "profileScale": 0.5,
+    "profileTranslation": [ 0, 1.0, 0 ],
     "animations": {
-      "faint": "q.bedrock_primary('greedent', 'faint', q.curve('one'))",
-      "cry": "q.bedrock_stateful('greedent', 'cry')",
-      "physical": "q.bedrock_stateful('greedent', 'physical')",
-      "special": "q.bedrock_stateful('greedent', 'special')",
-      "status": "q.bedrock_stateful('greedent', 'status')",
-      "howl": "q.bedrock_stateful('greedent', 'special')",
-      "recoil": "q.bedrock_stateful('greedent', 'recoil')"
+      "faint": "q.bedrock_primary('greedent', 'ground_idle', q.curve('one'))",
+      "cry": "q.bedrock_stateful('greedent', 'cry')"
     },
     "poses": {
       "standing": {
@@ -23,8 +18,7 @@
           "q.bedrock('greedent', 'ground_idle')"
         ],
         "quirks": [
-          "q.bedrock_quirk('greedent', 'blink')",
-          "q.bedrock_quirk('greedent', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
+          "q.bedrock_quirk('greedent', 'blink')"
        ]
       },
       "battle": {
@@ -34,7 +28,7 @@
         "isBattle": true,
         "animations": [
           "q.look('head')",
-          "q.bedrock('greedent', 'battle_idle')"
+          "q.bedrock('greedent', 'ground_idle')"
         ],
         "quirks": [
           "q.bedrock_quirk('greedent', 'blink')"
@@ -48,8 +42,7 @@
           "q.bedrock('greedent', 'ground_walk')"
         ],
         "quirks": [
-          "q.bedrock_quirk('greedent', 'blink')",
-          "q.bedrock_quirk('greedent', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
+          "q.bedrock_quirk('greedent', 'blink')"
        ]
       },
       "sleeping": {
@@ -57,7 +50,7 @@
         "transformTicks": 10,
         "poseTypes": ["SLEEP"],
         "animations": [
-          "q.bedrock('greedent', 'sleep')"
+          "q.bedrock('greedent', 'ground_idle')"
         ]
       }
     }

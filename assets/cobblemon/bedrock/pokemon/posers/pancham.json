@@ -1,10 +1,10 @@
 {
-    "portraitScale": 1.75,
-    "portraitTranslation": [ 0, -0.6, 0 ],
-    "profileScale": 1,
-    "profileTranslation": [ 0, 0.4, 0 ],
+    "portraitScale": 1.25,
+    "portraitTranslation": [ 0, 0.8, 0 ],
+    "profileScale": 0.7,
+    "profileTranslation": [ 0, 0.8, 0 ],
     "animations": {
-      "faint": "q.bedrock_primary('spritzee', 'ground_idle', q.curve('one'))"
+      "faint": "q.bedrock_primary('pancham', 'ground_idle', q.curve('one'))"
     },
     "poses": {
       "standing": {
@@ -14,22 +14,23 @@
         "isBattle": false,
         "animations": [
           "q.look('head')",
-          "q.bedrock('spritzee', 'ground_idle')"
+          "q.bedrock('pancham', 'ground_idle')"
         ],
         "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"       ]
+          "q.bedrock_quirk('pancham', 'blink')"
+       ]
       },
       "battle": {
-        "poseName": "battle_idle",
+        "poseName": "ground_idle",
         "transformTicks": 10,
         "poseTypes": ["STAND"],
         "isBattle": true,
         "animations": [
           "q.look('head')",
-          "q.bedrock('spritzee', 'ground_idle')"
+          "q.bedrock('pancham', 'battle_idle')"
         ],
         "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"
+          "q.bedrock_quirk('pancham', 'blink')"
        ]
       },
       "walking": {
@@ -37,17 +38,18 @@
         "transformTicks": 10,
         "poseTypes": ["WALK"],
         "animations": [
-          "q.bedrock('spritzee', 'ground_walk')"
+          "q.bedrock('pancham', 'ground_walk')"
         ],
         "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"       ]
+          "q.bedrock_quirk('pancham', 'blink')"
+       ]
       },
       "sleeping": {
         "poseName": "sleeping",
         "transformTicks": 10,
         "poseTypes": ["SLEEP"],
         "animations": [
-          "q.bedrock('spritzee', 'ground_idle')"
+          "q.bedrock('pancham', 'ground_idle')"
         ]
       }
     }
