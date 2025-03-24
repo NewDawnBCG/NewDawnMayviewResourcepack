@@ -1,0 +1,24 @@
+{
+    "species": "cobblemon:dialga",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [
+                "origin-forme"
+            ],
+            "poser": "cobblemon:origindialga",
+            "model": "cobblemon:origindialga.geo",
+            "texture": "cobblemon:textures/pokemon/0483_dialga/dialgaorigin.png",
+            "layers":[] 
+        },
+        {
+            "aspects": [
+                "origin-forme","shiny"
+            ],
+            "poser": "cobblemon:origindialga",
+            "model": "cobblemon:origindialga.geo",
+            "texture": "cobblemon:textures/pokemon/0483_dialga/dialgaorigin_shiny.png",
+            "layers":[] 
+        }
+    ]
+}

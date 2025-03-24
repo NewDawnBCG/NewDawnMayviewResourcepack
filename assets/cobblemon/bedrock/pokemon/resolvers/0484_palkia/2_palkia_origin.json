@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:palkia",
+    "order": 2,
+    "variations": [
+      {
+          "aspects": [
+              "origin-forme"
+          ],
+          "poser": "cobblemon:palkia_origin",
+          "model": "cobblemon:palkia_origin.geo",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin.png",
+          "layers":[] 
+      },
+      {
+          "aspects": [
+              "origin-forme","shiny"
+          ],
+          "poser": "cobblemon:palkia_origin",
+          "model": "cobblemon:palkia_origin.geo",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin_shiny.png",
+          "layers":[] 
+      }
+    ]
+  }
+  
