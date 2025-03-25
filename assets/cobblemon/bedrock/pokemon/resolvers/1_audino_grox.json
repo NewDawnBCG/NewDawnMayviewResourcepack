@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:audino",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["grox"],
+      "poser": "cobblemon:audino_grox",
+      "model": "cobblemon:audino_grox.geo",
+      "texture": "cobblemon:textures/pokemon/0531_audino/audino_grox.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0531_audino/audino_grox_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "grox"],
+      "texture": "cobblemon:textures/pokemon/0531_audino/audino_grox_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0531_audino/audino_grox_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
