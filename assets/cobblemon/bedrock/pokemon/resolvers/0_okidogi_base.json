@@ -10,9 +10,7 @@
       "layers": []
     },
     {
-      "aspects": [
-        "shiny"
-      ],
+      "aspects": ["shiny"],
       "poser": "cobblemon:okidogi",
       "model": "cobblemon:okidogi.geo",
       "texture": "cobblemon:textures/pokemon/okidogi/okidogi_shiny.png",

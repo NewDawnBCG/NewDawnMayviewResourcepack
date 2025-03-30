@@ -10,8 +10,11 @@
       "layers": []
     },
     {
-      "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/munkidori/munkidori_shiny.png"
+      "aspects": ["shiny"],
+      "poser": "cobblemon:munkidori",
+      "model": "cobblemon:munkidori.geo",
+      "texture": "cobblemon:textures/pokemon/munkidori/munkidori_shiny.png",
+      "layers": []
     }
   ]
 }
