@@ -21,10 +21,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('mienshao', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('mienshao', 'blink')"      
-       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -34,10 +31,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('mienshao', 'battle_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('mienshao', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -45,11 +39,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('mienshao', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('mienshao', 'blink')",
-          "q.bedrock_quirk('mienshao', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",

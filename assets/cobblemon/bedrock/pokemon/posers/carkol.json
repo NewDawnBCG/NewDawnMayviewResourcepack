@@ -21,11 +21,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('carkol', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('carkol', 'blink')",
-          "q.bedrock_quirk('carkol', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -35,10 +31,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('carkol', 'battle_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('carkol', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -46,11 +39,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('carkol', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('carkol', 'blink')",
-          "q.bedrock_quirk('carkol', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",

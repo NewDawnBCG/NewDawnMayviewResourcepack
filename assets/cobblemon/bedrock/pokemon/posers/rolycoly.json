@@ -21,11 +21,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('rolycoly', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('rolycoly', 'blink')",
-          "q.bedrock_quirk('rolycoly', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -35,10 +31,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('rolycoly', 'battle_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('rolycoly', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -46,11 +39,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('rolycoly', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('rolycoly', 'blink')",
-          "q.bedrock_quirk('rolycoly', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",

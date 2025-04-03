@@ -20,25 +20,12 @@
       "transformTicks": 10,
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "animations": ["look", "bedrock(coalossal, ground_idle)"]
-    ,
-    "quirks": [
-      {
-        "name": "blink",
-        "animations": ["bedrock(coalossal, blink)"]
-      }
-    ]
   },
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": ["WALK"],
-      "animations": ["bedrock(coalossal, ground_walk)"],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(coalossal, blink)"]
-        }
-      ]
+      "animations": ["bedrock(coalossal, ground_walk)"]
     },
   "sleeping": {
       "poseName": "sleeping",
