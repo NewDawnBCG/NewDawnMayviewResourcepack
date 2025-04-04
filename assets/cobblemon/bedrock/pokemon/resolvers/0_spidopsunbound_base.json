@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:spidopsunbound",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:spidopsunbound",
+        "model": "cobblemon:spidopsunbound.geo",
+        "texture": "cobblemon:textures/pokemon/spidopsunbound/spidopsunbound.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/spidopsunbound/spidopsunbound.png"
+      }
+    ]
+   }
