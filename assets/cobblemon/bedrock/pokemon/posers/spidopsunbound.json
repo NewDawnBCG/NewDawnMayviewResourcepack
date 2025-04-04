@@ -28,10 +28,6 @@
           "animations": ["bedrock(spidopsunbound, blink)"]
         },
         {
-          "name": "laugh",
-          "animations": ["bedrock(spidopsunbound, quirk_laugh)"]
-        },
-        {
           "name": "web",
           "animations": ["bedrock(spidopsunbound, quirk_web)"]
         }
