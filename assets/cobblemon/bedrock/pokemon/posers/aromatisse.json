@@ -15,10 +15,7 @@
         "animations": [
           "q.look('neck')",
           "q.bedrock('aromatisse', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('aromatisse', 'blink')"
-       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -28,10 +25,7 @@
         "animations": [
           "q.look('neck')",
           "q.bedrock('aromatisse', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('aromatisse', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -39,10 +33,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('aromatisse', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('aromatisse', 'blink')"
-       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",

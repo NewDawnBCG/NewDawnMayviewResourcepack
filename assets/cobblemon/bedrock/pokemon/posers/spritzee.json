@@ -15,9 +15,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('spritzee', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -27,10 +25,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('spritzee', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -38,9 +33,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('spritzee', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('spritzee', 'blink')"       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",
