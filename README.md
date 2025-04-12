@@ -38,6 +38,7 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - [CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)
 - [Planeta's Cobblemon Pack](https://modrinth.com/datapack/planetas-pokemon-pack)
 - [Cobblemon Icons [Star Academy]](https://www.curseforge.com/minecraft/texture-packs/cobblemon-icons-star-academy)
+- [CavsCobbleMons](https://modrinth.com/datapack/cavscobblemons)
 
 ### Contributors 
 
