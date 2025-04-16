@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:mimikyu",
+    "order": 1,
+    "variations": [ 
+        {
+            "aspects": ["charmander-rag"],
+            "model": "cobblemon:mimikyu_charmander.geo",
+            "texture": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu_charmander.png"
+        },
+        {
+            "aspects": ["shiny", "charmander-rag"],
+            "texture": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu_charmander_shiny.png"
+        }
+    ]
+}
