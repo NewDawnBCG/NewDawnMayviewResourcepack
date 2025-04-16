@@ -15,14 +15,14 @@
           "PROFILE"
         ],
         "animations": [
-          "bedrock(lilligantdawnian, ground_idle)"
+          "bedrock(lilligant_dawnian, ground_idle)"
         ]
       },
       "walking": {
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(lilligantdawnian, ground_walk)" ]
+        "animations": [ "bedrock(lilligant_dawnian, ground_walk)" ]
       }
     }
    }

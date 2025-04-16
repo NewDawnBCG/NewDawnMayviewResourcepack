@@ -1,8 +1,8 @@
 {
     "cobblemon.battle.activate.snaptrap": "Snap Trap activated!",
     "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
-    "cobblemon.species.lilligantdawnian.desc" :"This form of lilligant maintains the ecosystem using controlled wildfires and is naturally into gardening. Only found in during dawn",
-    "cobblemon.species.lilligantdawnian.name" :"Lilligant-D",
+    "cobblemon.species.lilligant-dawnian.name": "Lilligant",
+    "cobblemon.species.lilligant-dawnian.desc": "This form of lilligant maintains the ecosystem using controlled wildfires and is naturally into gardening. Only found in during dawn",
     "cobblemon.species.spidopsunbound.name" :"Spidops-UB",
     "cobblemon.species.spidopsunbound.desc" :"Spidop's in its purest for of humility. U-N-B-O-U-N-D",
     "cobblemon.species.sableye-dawnian.name": "Sableye",

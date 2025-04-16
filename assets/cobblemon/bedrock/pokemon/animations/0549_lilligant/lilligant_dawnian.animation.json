@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.lilligantdawnian.ground_idle": {
+		"animation.lilligant_dawnian.ground_idle": {
 			"loop": true,
 			"animation_length": 3.5417,
 			"bones": {
@@ -4371,7 +4371,7 @@
 				}
 			}
 		},
-		"animation.lilligantdawnian.ground_walk": {
+		"animation.lilligant_dawnian.ground_walk": {
 			"loop": true,
 			"animation_length": 3.5023,
 			"bones": {
