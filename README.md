@@ -39,10 +39,13 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - [Planeta's Cobblemon Pack](https://modrinth.com/datapack/planetas-pokemon-pack)
 - [Cobblemon Icons [Star Academy]](https://www.curseforge.com/minecraft/texture-packs/cobblemon-icons-star-academy)
 - [CavsCobbleMons](https://modrinth.com/datapack/cavscobblemons)
+- [TripleBakalutions](https://modrinth.com/datapack/triple-bakalutions)
 
 ### Contributors 
 
-- [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing)
-- Stewwen27 (Swirlix Line)
+- [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing, Iron Hands, Sandy Shocks)
+- Stewwen27 (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
 - Eelimey (Swirlix Line)
+- ItsJustJ (New Dawnian Sableye)
 - Omniv (Bug and Texture Fixes)
+- Unseennote (Commissioner)

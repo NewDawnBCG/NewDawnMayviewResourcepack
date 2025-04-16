@@ -10,9 +10,7 @@
       "layers": []
     },
     {
-      "aspects": [
-        "shiny"
-      ],
+      "aspects": ["shiny"],
       "poser": "cobblemon:sandyshocks",
       "model": "cobblemon:sandyshocks.geo",
       "texture": "cobblemon:textures/pokemon/sandyshocks/sandyshocks_shiny.png",

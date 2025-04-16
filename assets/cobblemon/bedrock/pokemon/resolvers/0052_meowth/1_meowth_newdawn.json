@@ -1,0 +1,14 @@
+{
+    "species": "cobblemon:meowth",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["newdawn"],
+            "texture": "cobblemon:textures/pokemon/0052_meowth/lucky.png"
+        },
+        {
+            "aspects": ["newdawn", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0052_meowth/lucky_shiny.png"
+        }
+    ]
+}
