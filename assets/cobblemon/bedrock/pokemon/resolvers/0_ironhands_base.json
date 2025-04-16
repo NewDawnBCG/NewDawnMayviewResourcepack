@@ -3,15 +3,32 @@
   "order": 0,
   "variations": [
     {
+      "aspects": [],
       "poser": "cobblemon:ironhands",
       "model": "cobblemon:ironhands.geo",
-      "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands.png"
+      "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands_emissive.png",
+          "translucent": true
+    }
+      ]
     },
     {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands_shiny.png"
+      "aspects": ["shiny"],
+      "poser": "cobblemon:ironhands",
+      "model": "cobblemon:ironhands.geo",
+      "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0992_ironhands/ironhands_shiny_emissive.png",
+          "translucent": true
+    }
+      ]
     }
   ]
 }

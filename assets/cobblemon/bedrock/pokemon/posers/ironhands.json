@@ -1,34 +1,54 @@
 {
-  "head": "head",
-  "portraitScale": 1.25,
-  "portraitTranslation": [0, 0.5, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.4, 0],
-  "faint": "bedrock(ironhands, faint)",
-  "poses": {
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "animations": ["look", "bedrock(ironhands, ground_idle)"]
+  "portraitScale": 1.2,
+  "portraitTranslation": [0, 2.2, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('ironhands', 'cry')",
+    "faint": "q.bedrock_primary('ironhands', 'faint', q.curve('one'))"
   },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('ironhands', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('ironhands', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('ironhands', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironhands', 'blink')"
+      ]
+    },
     "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
       "poseTypes": ["WALK"],
-      "animations": ["bedrock(ironhands, ground_walk)"]
+      "animations": [
+        "q.bedrock('ironhands', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('ironhands', 'blink')"]
     },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
+    "float": {
       "poseTypes": ["FLOAT"],
-      "animations": ["bedrock(ironhands, ground_idle)"]
+      "animations": [
+        "q.bedrock('ironhands', 'ground_idle')"
+      ]
     },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
+    "swim": {
       "poseTypes": ["SWIM"],
-      "animations": ["bedrock(ironhands, ground_walk)"]
+      "animations": [
+        "q.bedrock('ironhands', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ironhands', 'sleep')"]
     }
+
   }
-}
+ }
