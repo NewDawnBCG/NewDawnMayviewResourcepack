@@ -218,5 +218,12 @@
         "sounds": [
             "cobblemon:pokemon/hydreigon/hydreigon_cry"
         ]
+    },
+"stunfisk": {
+       "sounds": [
+           "cobblemon:pokemon/stunfisk/stunfisk"
+        ]
     }
+}
+   
 }
