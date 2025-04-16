@@ -40,6 +40,7 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - [Cobblemon Icons [Star Academy]](https://www.curseforge.com/minecraft/texture-packs/cobblemon-icons-star-academy)
 - [CavsCobbleMons](https://modrinth.com/datapack/cavscobblemons)
 - [TripleBakalutions](https://modrinth.com/datapack/triple-bakalutions)
+- [MonkeyMons](https://modrinth.com/datapack/monkeymons)
 
 ### Contributors 
 
