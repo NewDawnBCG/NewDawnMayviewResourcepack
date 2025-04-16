@@ -3,7 +3,7 @@
     "order": 1,
     "variations": [
       {
-        "aspects": ["newdawn"],
+        "aspects": ["dawnian"],
         "poser": "cobblemon:lilligant_dawnian",
         "model": "cobblemon:lilligant_dawnian.geo",
         "texture": "cobblemon:textures/pokemon/0549_lilligant/lilligant_dawnian.png",
@@ -11,7 +11,7 @@
       },
       {
         "aspects": [
-          "newdawn",
+          "dawnian",
           "shiny"
         ],
         "texture": "cobblemon:textures/pokemon/0549_lilligant/lilligant_dawnian_shiny.png"

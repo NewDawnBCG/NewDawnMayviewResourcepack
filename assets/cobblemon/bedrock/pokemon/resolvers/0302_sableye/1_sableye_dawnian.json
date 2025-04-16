@@ -3,7 +3,7 @@
     "order": 1,
     "variations": [
       {
-        "aspects": ["newdawn"],
+        "aspects": ["dawnian"],
         "poser": "cobblemon:sableye_dawnian",
         "model": "cobblemon:sableye_dawnian.geo",
         "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_dawnian.png",
@@ -11,7 +11,7 @@
       },
       {
         "aspects": [
-          "newdawn",
+          "dawnian",
           "shiny"
         ],
         "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_dawnian_shiny.png"

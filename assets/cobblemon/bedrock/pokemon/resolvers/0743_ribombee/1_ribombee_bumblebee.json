@@ -3,7 +3,7 @@
     "order": 0,
     "variations": [
         {
-            "aspects": ["newdawn"],
+            "aspects": ["dawnian"],
             "texture": "cobblemon:textures/pokemon/0743_ribombee/bumblebee.png",
             "layers": [
                 {
