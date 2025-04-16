@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:lilligantdawnian",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lilligantdawnian",
+        "model": "cobblemon:lilligantdawnian.geo",
+        "texture": "cobblemon:textures/pokemon/lilligantdawnian/lilligantdawnian.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/lilligantdawnian/lilligantdawnian_shiny.png"
+      }
+    ]
+   }
