@@ -44,8 +44,8 @@ Many thanks to the different mod authors and artists that contribute to the pack
 ### Contributors 
 
 - [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing, Iron Hands, Sandy Shocks)
-- Stewwen27 (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
-- Eelimey (Swirlix Line)
+- Stewwen27 & eelimey (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
+- UselessGoddess (Cherubi Line, Koraidon, Miraidon)
 - ItsJustJ (New Dawnian Sableye)
 - Omniv (Bug and Texture Fixes)
 - Unseennote (Commissioner)
