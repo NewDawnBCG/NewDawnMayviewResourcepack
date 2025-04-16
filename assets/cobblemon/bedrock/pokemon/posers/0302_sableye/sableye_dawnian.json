@@ -15,25 +15,25 @@
           "PROFILE"
         ],
         "animations": [
-          "bedrock(sableyedawnian, ground_idle)"
+          "bedrock(sableye_dawnian, ground_idle)"
         ]
       },
       "walking": {
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(sableyedawnian, ground_walk)" ]
+        "animations": [ "bedrock(sableye_dawnian, ground_walk)" ]
       },
       "shoulder_left": {
         "poseTypes": ["SHOULDER_LEFT"],
         "animations": [
-            "bedrock(sableyedawnian, shoulder_left)"
+            "bedrock(sableye_dawnian, shoulder_left)"
         ]
       },
       "shoulder_right":{
         "poseTypes": ["SHOULDER_RIGHT"],
         "animations" :[
-            "bedrock(sableyedawnian, shoulder_right)"
+            "bedrock(sableye_dawnian, shoulder_right)"
         ]
       }
     }

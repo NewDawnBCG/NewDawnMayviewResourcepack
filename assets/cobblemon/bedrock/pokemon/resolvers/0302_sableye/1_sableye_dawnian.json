@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:sableye",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["newdawn"],
+        "poser": "cobblemon:sableye_dawnian",
+        "model": "cobblemon:sableye_dawnian.geo",
+        "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_dawnian.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "newdawn",
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_dawnian_shiny.png"
+      }
+    ]
+   }
