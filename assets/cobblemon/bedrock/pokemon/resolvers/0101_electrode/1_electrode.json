@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:electrode",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["newdawn"],
+            "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": ["newdawn", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball_shiny_emissive.png",
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}
