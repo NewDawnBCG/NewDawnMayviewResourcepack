@@ -1,0 +1,16 @@
+{
+    "species": "cobblemon:palossand",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": ["redsand"],
+            "poser": "cobblemon:palossand_old",
+            "model": "cobblemon:palossand_old.geo",
+            "texture": "cobblemon:textures/pokemon/0770_palossand/palossand_mesa.png"
+        },
+        {
+            "aspects": ["redsand", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0770_palossand/palossand_mesa_shiny.png"
+        }
+    ]
+}
