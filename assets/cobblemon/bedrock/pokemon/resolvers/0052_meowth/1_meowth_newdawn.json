@@ -3,11 +3,11 @@
     "order": 1,
     "variations": [
         {
-            "aspects": ["newdawn"],
+            "aspects": ["dawnian"],
             "texture": "cobblemon:textures/pokemon/0052_meowth/lucky.png"
         },
         {
-            "aspects": ["newdawn", "shiny"],
+            "aspects": ["dawnian", "shiny"],
             "texture": "cobblemon:textures/pokemon/0052_meowth/lucky_shiny.png"
         }
     ]

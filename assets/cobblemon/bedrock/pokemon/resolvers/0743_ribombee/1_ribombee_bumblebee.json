@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:ribombee",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": ["dawnian"],
+            "texture": "cobblemon:textures/pokemon/0743_ribombee/bumblebee.png",
+            "layers": [
+                {
+                    "name": "wings",
+                    "texture": "cobblemon:textures/pokemon/0743_ribombee/bumblebee_wings.png",
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

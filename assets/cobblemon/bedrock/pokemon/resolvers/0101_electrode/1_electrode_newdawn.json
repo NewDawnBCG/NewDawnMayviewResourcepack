@@ -3,7 +3,7 @@
     "order": 1,
     "variations": [
         {
-            "aspects": ["newdawn"],
+            "aspects": ["dawnian"],
             "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball.png",
             "layers": [
                 {
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "aspects": ["newdawn", "shiny"],
+            "aspects": ["dawnian", "shiny"],
             "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball_shiny.png",
             "layers": [
                 {
