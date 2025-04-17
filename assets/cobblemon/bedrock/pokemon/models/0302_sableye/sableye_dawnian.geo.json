@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.sableyedawnian",
+				"identifier": "geometry.sableye_dawnian",
 				"texture_width": 256,
 				"texture_height": 256,
 				"visible_bounds_width": 5,
@@ -18,7 +18,7 @@
 				{
 					"name": "body",
 					"parent": "sableye_dawnian",
-					"pivot": [0, 15, 1]
+					"pivot": [0, 16, 1]
 				},
 				{
 					"name": "torso",
@@ -67,7 +67,8 @@
 					"parent": "torso",
 					"pivot": [0.08795, 21.72178, 1.24213],
 					"cubes": [
-						{"origin": [-4.99, 21.99, -2.26], "size": [10, 9, 7], "uv": [51, 81]}
+						{"origin": [-4.99, 21.99, -2.26], "size": [10, 9, 7], "uv": [51, 81]},
+						{"origin": [-2.99, 30.99, -1.76], "size": [6, 9, 6], "uv": [108, 50]}
 					]
 				},
 				{
