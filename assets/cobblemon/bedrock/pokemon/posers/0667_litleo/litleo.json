@@ -24,14 +24,14 @@
       "transformTicks": 10,
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isBattle": false,
-      "animations": ["look", "bedrock(litleo, ground_idle)"],
+      "animations": ["look", "q.bedrock('litleo', ground_idle)"],
       "quirks": ["q.bedrock_quirk('litleo', 'blink')"]
     },
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": ["WALK"],
-      "animations": ["bedrock(litleo, ground_walk)"],
+      "animations": ["q.bedrock('litleo', ground_walk)"],
       "quirks": ["q.bedrock_quirk('litleo', 'blink')"]
     },
 
@@ -39,7 +39,7 @@
       "poseName": "sleeping",
       "transformTicks": 10,
       "poseTypes": ["SLEEP"],
-      "animations": ["bedrock(litleo, sleep)"]
+      "animations": ["q.bedrock('litleo', sleep)"]
     }
   }
 }
