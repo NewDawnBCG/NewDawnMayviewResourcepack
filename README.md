@@ -48,5 +48,6 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - Stewwen27 & eelimey (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
 - UselessGoddess (Cherubi Line, Koraidon, Miraidon)
 - ItsJustJ (New Dawnian Sableye)
+- Deuli (Basketball..?, Lucky Meowth, Gen 1 Starter Mimikyus, and 90% of bug fixes (we love you Deuli))
 - Omniv (Bug and Texture Fixes)
 - Unseennote (Commissioner)
