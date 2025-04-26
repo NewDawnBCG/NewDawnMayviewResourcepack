@@ -4,6 +4,8 @@
     "variations": [
         {
             "aspects": ["dawnian"],
+            "poser": "cobblemon:meowth",
+            "model": "cobblemon:meowth.geo",
             "texture": "cobblemon:textures/pokemon/0052_meowth/lucky.png"
         },
         {

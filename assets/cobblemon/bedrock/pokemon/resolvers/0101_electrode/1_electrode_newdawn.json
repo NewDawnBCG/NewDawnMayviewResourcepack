@@ -4,6 +4,8 @@
     "variations": [
         {
             "aspects": ["dawnian"],
+            "poser": "cobblemon:electrode",
+            "model": "cobblemon:electrode.geo",
             "texture": "cobblemon:textures/pokemon/0101_electrode/basket_ball.png",
             "layers": [
                 {
