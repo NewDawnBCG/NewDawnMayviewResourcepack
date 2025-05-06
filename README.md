@@ -41,6 +41,8 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - [CavsCobbleMons](https://modrinth.com/datapack/cavscobblemons)
 - [TripleBakalutions](https://modrinth.com/datapack/triple-bakalutions)
 - [MonkeyMons](https://modrinth.com/datapack/monkeymons)
+- [BoniMons](https://modrinth.com/datapack/bonimons)
+- [CobblemonCafe](https://modrinth.com/datapack/cobble-caf-forms)
 
 ### Contributors 
 

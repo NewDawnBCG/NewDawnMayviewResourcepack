@@ -218,5 +218,181 @@
         "sounds": [
             "cobblemon:pokemon/hydreigon/hydreigon_cry"
         ]
+    },
+    "move.dragonpulse.spark": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/dragonpulse/dragonpulse_spark",
+                "volume": 0.7
+            }
+        ]
+    },
+    "move.dragonpulse.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/dragonpulse/dragonpulse_actor",
+                "volume": 1.15
+            }
+        ]
+    },
+    "move.dragonpulse.target": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/dragonpulse/dragonpulse_target",
+                "volume": 1.2
+            }
+        ]
+    },
+    "move.makeitrain.target": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/makeitrain/makeitrain_target",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.aurasphere.charge": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/aurasphere/aurasphere_charge",
+                "volume": 1.0
+            }
+        ]
+    },
+    "move.aurasphere.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/aurasphere/aurasphere_actor",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.aurasphere.target": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/aurasphere/aurasphere_target",
+                "volume": 1.2
+            }
+        ]
+    },
+    "move.discharge.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/discharge/discharge_actor",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.discharge.spill": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/discharge/discharge_spill",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.generic.heal": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/generic/heal",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.generic.drain": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/generic/drain",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.generic.explosion": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/generic/explosion",
+                "volume": 1.4
+            }
+        ]
+    },
+    "move.bitterblade.target": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/bitterblade/bitterblade_target",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.bitterblade.impact": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/bitterblade/bitterblade_impact",
+                "volume": 6.0
+            }
+        ]
+    },
+    "move.teleport.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/teleport/teleport_actor",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.teleport.teleport": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/teleport/teleport_teleport",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.teleport.return": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/teleport/teleport_return",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.earthquake.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/earthquake/earthquake_actor",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.earthquake.impact": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/earthquake/earthquake_impact",
+                "volume": 0.8
+            }
+        ]
+    },
+    "move.twinkletackle.actor": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/twinkletackle/twinkletackle_actor",
+                "volume": 1.1
+            }
+        ]
+    },
+    "move.twinkletackle.impact": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/twinkletackle/twinkletackle_impact",
+                "volume": 1.1
+            }
+        ]
+    },
+    "move.twinkletackle.sparkle": {
+        "sounds": [
+            {
+                "name": "cobblemon:move/twinkletackle/twinkletackle_sparkle",
+                "volume": 1.1
+            }
+        ]
     }
 }
