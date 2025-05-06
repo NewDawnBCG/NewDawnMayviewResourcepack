@@ -27,4 +27,7 @@
     "cobblemon.species.nerueon.desc": "Short tempered; it dislikes being disturbed and will use its giant ear to smack those who get near. Its powerful voice can be used to create soothing melodies or violent screeches depending on its mood.",
     "cobblemon.ui.pokedex.region.dawnian": "Dawn",
     "cobblemon.ui.pokedex.info.form.dawnian": "Dawnian"
+    "cobblemon.ui.pokedex.info.form.sunny": "Sunny",
+    "cobblemon.ui.pokedex.info.form.rainy": "Rainy",
+    "cobblemon.ui.pokedex.info.form.snowy": "Snowy"
 }
