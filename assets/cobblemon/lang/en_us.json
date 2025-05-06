@@ -72,5 +72,7 @@
     "cobblemon.species.tempestfang.name": "Tempest Fang",
     "cobblemon.species.tempestfang.desc1": "This seemingly berserk dragon has a odd habit of collecting coins from Gimmighoul through rather vicious methods, this often results in conflicts between Tempest Fang and Ancient Gale.",
     "cobblemon.species.tempestfang.desc2": "Often easily aggrivated, this pokemon likes to take its rage out of surrounding forestry and pokemon.",
-    "cobblemon.ui.pokedex.region.extraparadox": "ExtraParadox"
+    "cobblemon.ui.pokedex.region.extraparadox": "ExtraParadox",
+    "cobblemon.species.meloetta-pirouette.desc": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+    "cobblemon.ui.pokedex.info.form.pirouette": "Pirouette"
 }

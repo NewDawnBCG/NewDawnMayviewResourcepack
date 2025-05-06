@@ -5,9 +5,9 @@
     "profileScale": 0.8,
     "profileTranslation": [0, 0.6, 0],
     "animations": {
-        "special": "q.bedrock_primary('meloetta', 'special')",
-        "cry": "q.bedrock_stateful('meloetta', 'cry')",
-        "recoil": "q.bedrock_stateful('meloetta', 'recoil')"
+        "special": "q.bedrock_primary('meloetta_pirouette', 'special')",
+        "cry": "q.bedrock_stateful('meloetta_pirouette', 'cry')",
+        "recoil": "q.bedrock_stateful('meloetta_pirouette', 'recoil')"
     },
     "poses": {
         "standing": {
@@ -21,10 +21,10 @@
             ],
             "animations": [
                 "q.look('head')", 
-                "q.bedrock('meloetta', 'ground_idle')"
+                "q.bedrock('meloetta_pirouette', 'ground_idle')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         },
         "walking": {
@@ -35,10 +35,10 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('meloetta', 'ground_walk')"
+                "q.bedrock('meloetta_pirouette', 'ground_walk')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         },
         "hovering": {
@@ -49,10 +49,10 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('meloetta', 'hover')"
+                "q.bedrock('meloetta_pirouette', 'hover')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         },
         "flying": {
@@ -63,10 +63,10 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('meloetta', 'fly')"
+                "q.bedrock('meloetta_pirouette', 'fly')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         },
         "shoulder_left": {
@@ -77,10 +77,10 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('meloetta', 'shoulder_left')"
+                "q.bedrock('meloetta_pirouette', 'shoulder_left')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         },
         "shoulder_right": {
@@ -91,10 +91,10 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('meloetta', 'shoulder_right')"
+                "q.bedrock('meloetta_pirouette', 'shoulder_right')"
             ],
             "quirks": [
-                "q.bedrock_quirk('meloetta', 'blink')"
+                "q.bedrock_quirk('meloetta_pirouette', 'blink')"
             ]
         }
     }
