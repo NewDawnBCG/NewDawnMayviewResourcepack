@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironmirage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironmirage",
+      "model": "cobblemon:ironmirage.geo",
+      "texture": "cobblemon:textures/pokemon/ironmirage/ironmirage.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironmirage/ironmirage_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironmirage/ironmirage_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironmirage/ironmirage_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

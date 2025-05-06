@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironmight",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironmight",
+      "model": "cobblemon:ironmight.geo",
+      "texture": "cobblemon:textures/pokemon/ironmight/ironmight.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironmight/ironmight_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironmight/ironmight_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironmight/ironmight_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}
