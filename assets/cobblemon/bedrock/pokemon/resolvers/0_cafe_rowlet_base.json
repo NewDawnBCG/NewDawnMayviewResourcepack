@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_rowlet",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rowlet",
+      "model": "cobblemon:cafe_rowlet.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_rowlet/cafe_rowlet.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_rowlet/cafe_rowlet_shiny.png"
+    }
+  ]
+}

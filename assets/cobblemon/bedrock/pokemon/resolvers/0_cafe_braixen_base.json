@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_braixen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_braixen",
+      "model": "cobblemon:cafe_braixen.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_braixen/cafe_braixen.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_braixen/cafe_braixen_shiny.png"
+    }
+  ]
+}

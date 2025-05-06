@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_chandelure",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_chandelure",
+      "model": "cobblemon:cafe_chandelure.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_chandelure/cafe_chandelure.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_chandelure/cafe_chandelure_shiny.png"
+    }
+  ]
+}

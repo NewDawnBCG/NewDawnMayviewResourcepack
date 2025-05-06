@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:cafe_arbok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arbok",
+      "model": "cobblemon:cafe_arbok.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_arbok/cafe_arbok.png",
+      "layers": [
+    {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/cafe_arbok/cafe_arbok_pattern_heart.png",
+          "emissive": false
+        }
+]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_arbok/cafe_arbok_shiny.png"
+    }
+  ]
+}

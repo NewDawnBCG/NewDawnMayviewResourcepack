@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_chansey",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:chansey",
+      "model": "cobblemon:cafe_chansey.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_chansey/cafe_chansey.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_chansey/cafe_chansey_shiny.png"
+    }
+  ]
+}

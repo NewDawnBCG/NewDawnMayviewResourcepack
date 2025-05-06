@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_serperior",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:serperior",
+      "model": "cobblemon:cafe_serperior.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_serperior/cafe_serperior.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_serperior/cafe_serperior_shiny.png"
+    }
+  ]
+}

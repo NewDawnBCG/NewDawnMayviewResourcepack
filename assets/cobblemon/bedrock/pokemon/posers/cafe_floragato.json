@@ -1,0 +1,53 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.2, 1.1, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(floragato, ground_idle)"],
+      "isBattle": false,
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 15,
+          "maxSecondsBetweenOccurrences": 30,
+          "animations": ["bedrock(floragato, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(floragato, ground_walk)"]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["bedrock(floragato, ground_idle)"]
+    },
+    "battle": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(floragato, battle_idle)"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('meowscarada,sleep)"
+      ]
+    }
+  }
+}

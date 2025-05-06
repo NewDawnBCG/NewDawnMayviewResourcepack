@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_vulpix_alolan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vulpix_alolan",
+      "model": "cobblemon:cafe_vulpix_alolan.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_vulpix_alolan/cafe_vulpix_alolan.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_vulpix_alolan/cafe_vulpix_alolan_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_gardevoir",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_gardevoir",
+      "model": "cobblemon:cafe_gardevoir.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_gardevoir/cafe_gardevoir.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_gardevoir/cafe_gardevoir_shiny.png"
+    }
+  ]
+}

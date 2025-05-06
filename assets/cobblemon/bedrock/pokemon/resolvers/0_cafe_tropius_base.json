@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_tropius",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tropius",
+      "model": "cobblemon:cafe_tropius.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_tropius/cafe_tropius.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_tropius/cafe_tropius_shiny.png"
+    }
+  ]
+}

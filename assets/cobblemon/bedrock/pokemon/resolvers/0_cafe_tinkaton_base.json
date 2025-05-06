@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_tinkaton",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_tinkaton",
+      "model": "cobblemon:cafe_tinkaton.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_tinkaton/cafe_tinkaton.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_tinkaton/cafe_tinkaton_shiny.png"
+    }
+  ]
+}

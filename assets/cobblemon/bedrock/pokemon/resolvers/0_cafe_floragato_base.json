@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_floragato",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:floragato",
+      "model": "cobblemon:cafe_floragato.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_floragato/cafe_floragato.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_floragato/cafe_floragato_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_lilligant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lilligant",
+      "model": "cobblemon:cafe_lilligant.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_lilligant/cafe_lilligant.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_lilligant/cafe_lilligant_shiny.png"
+    }
+  ]
+}

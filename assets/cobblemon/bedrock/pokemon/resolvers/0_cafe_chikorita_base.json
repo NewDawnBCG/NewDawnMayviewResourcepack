@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_chikorita",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_chikorita",
+      "model": "cobblemon:cafe_chikorita.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_chikorita/cafe_chikorita.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_chikorita/cafe_chikorita_shiny.png"
+    }
+  ]
+}

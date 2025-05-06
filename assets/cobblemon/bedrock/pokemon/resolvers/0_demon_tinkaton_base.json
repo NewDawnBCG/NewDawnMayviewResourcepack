@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:demon_tinkaton",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:demon_tinkaton",
+      "model": "cobblemon:demon_tinkaton.geo",
+      "texture": "cobblemon:textures/pokemon/demon_tinkaton/demon_tinkaton.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/demon_tinkaton/demon_tinkaton_shiny.png"
+    }
+  ]
+}

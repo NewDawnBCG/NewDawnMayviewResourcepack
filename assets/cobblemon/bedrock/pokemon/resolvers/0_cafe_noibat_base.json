@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cafe_noibat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cafe_noibat",
+      "model": "cobblemon:cafe_noibat.geo",
+      "texture": "cobblemon:textures/pokemon/cafe_noibat/cafe_noibat.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/cafe_noibat/cafe_noibat_shiny.png"
+    }
+  ]
+}
