@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:pidove",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pidove",
+      "model": "cobblemon:pidove.geo",
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["dove-pattern-auburn"],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_auburn.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "dove-pattern-auburn"],
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["dove-pattern-icy"],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_icy.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "dove-pattern-icy"],
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["dove-pattern-modena"],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_modena.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "dove-pattern-modena"],
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["dove-pattern-lahore"],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_lahore.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "dove-pattern-lahore"],
+      "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0519_pidove/pidove_shiny.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}
