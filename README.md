@@ -43,13 +43,22 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - [MonkeyMons](https://modrinth.com/datapack/monkeymons)
 - [BoniMons](https://modrinth.com/datapack/bonimons)
 - [CobblemonCafe](https://modrinth.com/datapack/cobble-caf-forms)
+- [ExtraParadoxMons](https://modrinth.com/datapack/extra-paradox-mons)
+- [SceptileOverhaul](https://modrinth.com/datapack/sceptile-overhaul)
+- [Cobblemon:MegaShowdown](https://modrinth.com/mod/cobblemon-mega-showdown)
+- [MoreCobblemonMoveAnims](https://modrinth.com/datapack/more-cobblemon-move-anims)
+- [PidoveVariants](https://modrinth.com/datapack/pidove-variants)
+- [CASTFORMS](https://discord.com/channels/934267676354834442/1214639470788481095/1351716880792027157)
+- [ShadowAndSoulSilverLugia](https://modrinth.com/datapack/shadow-lugia-addon)
 
 ### Contributors 
 
-- [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing, Iron Hands, Sandy Shocks)
+- [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing, Iron Hands, Sandy Shocks, Dawnian Numel Line, Dawnian Yamask Line, Dawnian Heracross)
 - Stewwen27 & eelimey (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
 - UselessGoddess (Cherubi Line, Koraidon, Miraidon)
 - ItsJustJ (New Dawnian Sableye)
 - Deuli (Basketball..?, Lucky Meowth, Gen 1 Starter Mimikyus, and 90% of bug fixes (we love you Deuli))
 - Omniv (Bug and Texture Fixes)
 - Unseennote (Commissioner)
+- Edancheese (Commissioner/Concept Drafter)
+- 
