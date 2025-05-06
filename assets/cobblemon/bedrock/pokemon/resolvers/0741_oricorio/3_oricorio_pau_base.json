@@ -6,14 +6,14 @@
       "aspects": ["pau-style"],
       "poser": "cobblemon:pau_oricorio",
       "model": "cobblemon:pau_oricorio.geo",
-      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pau.png",
+      "texture": "cobblemon:textures/pokemon/0741_oricorio/pau_oricorio.png",
       "layers": []
     },
     {
       "aspects": ["shiny", "pau-style"],
       "poser": "cobblemon:pau_oricorio",
       "model": "cobblemon:pau_oricorio.geo",
-      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pau_shiny.png",
+      "texture": "cobblemon:textures/pokemon/0741_oricorio/pau_oricorio_shiny.png",
       "layers": []
     }
   ]
