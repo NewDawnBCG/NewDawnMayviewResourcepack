@@ -1,17 +1,9 @@
 {
   "portraitScale": 1.5,
-  "head": "neck",
-  "portraitTranslation": [
-    0,
-    2.3,
-    0
-  ],
+  "head": "cabeza",
+  "portraitTranslation": [0, 2.3, 0],
   "profileScale": 0.5,
-  "profileTranslation": [
-    0,
-    1.1,
-    0
-  ],
+  "profileTranslation": [0, 1.1, 0],
   "animations": {
     "physical": "q.bedrock_primary('enamorus', 'physical_attack', q.curve('symmetrical_wide'))"
   },
@@ -27,8 +19,8 @@
       ],
       "isBattle": false,
       "animations": [
-        "look",
-        "bedrock(enamorus, ground_idle)"
+        "q.look('cabeza')",
+        "q.bedrock('enamorus', 'ground_idle')"
       ],
       "quirks": []
     },
@@ -39,8 +31,8 @@
         "WALK"
       ],
       "animations": [
-        "look",
-        "bedrock(enamorus, ground_walk)"
+        "q.look('cabeza')",
+        "q.bedrock('enamorus', 'ground_walk')"
       ],
       "quirks": []
     },
@@ -52,8 +44,8 @@
       ],
       "isBattle": true,
       "animations": [
-        "look",
-        "bedrock(enamorus, ground_idle)"
+        "q.look('cabeza')",
+        "q.bedrock('enamorus', 'ground_idle')"
       ],
       "quirks": []
     }
