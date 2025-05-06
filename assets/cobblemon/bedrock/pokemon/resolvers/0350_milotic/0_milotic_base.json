@@ -5,14 +5,13 @@
     {
       "aspects": [],
       "poser": "cobblemon:milotic",
-      "model": "cobblemon:milotic.geo",
+      "model": "cobblemon:milotic_male.geo",
       "texture": "cobblemon:textures/pokemon/0350_milotic/milotic.png",
       "layers": []
     },
     {
       "aspects": ["shiny"],
-      "texture": "cobblemon:textures/pokemon/0350_milotic/milotic_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/0350_milotic/milotic_shiny.png"
     }
   ]
 }
