@@ -13,10 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "poser": "cobblemon:arboliva",
-      "model": "cobblemon:arboliva.geo",
-      "texture": "cobblemon:textures/pokemon/arboliva/arboliva_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/arboliva/arboliva_shiny.png"
     }
   ]
 }

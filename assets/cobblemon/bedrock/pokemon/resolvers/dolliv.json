@@ -13,10 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "poser": "cobblemon:dolliv",
-      "model": "cobblemon:dolliv.geo",
-      "texture": "cobblemon:textures/pokemon/dolliv/dolliv_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/dolliv/dolliv_shiny.png"
     }
   ]
 }

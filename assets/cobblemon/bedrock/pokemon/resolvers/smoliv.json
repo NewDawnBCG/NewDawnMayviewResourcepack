@@ -13,10 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "poser": "cobblemon:smoliv",
-      "model": "cobblemon:smoliv.geo",
-      "texture": "cobblemon:textures/pokemon/smoliv/smoliv_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/smoliv/smoliv_shiny.png"
     }
   ]
 }
