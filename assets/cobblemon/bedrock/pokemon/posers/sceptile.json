@@ -1,38 +1,83 @@
 {
-  "portraitScale": 2.15,
-  "portraitTranslation": [-0.25, 2.1, 0],
-  "profileScale": 0.6,
-  "profileTranslation": [0.0, 0.9, 0.0],
-  "rootBone": "sceptile",
-  "animations": {
-    "cry": "q.bedrock_stateful('sceptile', 'cry')"
-  },
+  "head": "head",
+  "portraitScale": 1.79,
+  "portraitTranslation": [-0.67, 1.45, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0.007, 0.75, 0],
+  "faint": "bedrock(sceptile, faint)",
+  "cry": "bedrock(sceptile, cry)",
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "poseTypes": ["STAND", "WALK"],
-      "isBattle": true,
-      "animations": ["q.look('head')", "q.bedrock('sceptile', 'battle_idle')"],
-	  "quirks": [
-        "q.bedrock_quirk('sceptile', 'blink')"
-		]
-    },
     "standing": {
       "poseName": "standing",
-      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('sceptile', 'ground_idle')"],
-	  "quirks": [
-        "q.bedrock_quirk('sceptile', 'blink')"
-		]
-	  
+      "animations": [
+        "look",
+        "bedrock(sceptile, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(sceptile, blink)"]
+        },
+        {
+          "name": "tail_flick",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(sceptile, tail_flick)"]
+        }
+      ]
     },
     "walking": {
       "poseName": "walking",
+      "transformTicks": 10,
       "poseTypes": ["WALK"],
       "animations": [
-        "q.bedrock('sceptile', 'ground_walk')"
+        "look",
+        "bedrock(sceptile, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(sceptile, blink)"]
+        },
+        {
+          "name": "tail_flick",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(sceptile, tail_flick)"]
+        }
       ]
-    }
-  }
-}
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [ "bedrock(sceptile, sleeping)" ]
+    },
+      "battle_idle": {
+        "poseName": "battle_idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "look",
+          "bedrock(sceptile, battle_idle)"
+        ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(sceptile, blink)"]
+        },
+        {
+          "name": "tail_flick",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(sceptile, tail_flick)"]
+        }
+      ]
+    }}}
