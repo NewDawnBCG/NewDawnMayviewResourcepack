@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.arboliva2.ground_idle": {
+		"animation.arboliva.ground_idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -119,7 +119,7 @@
 				}
 			}
 		},
-		"animation.arboliva2.ground_walk": {
+		"animation.arboliva.ground_walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -274,7 +274,7 @@
 				}
 			}
 		},
-		"animation.arboliva2.walktest": {
+		"animation.arboliva.walktest": {
 			"loop": true,
 			"bones": {
 				"body1": {
