@@ -1,0 +1,9 @@
+{
+  "species": "cobblemon:milotic",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["female"]
+    }
+  ]
+}
