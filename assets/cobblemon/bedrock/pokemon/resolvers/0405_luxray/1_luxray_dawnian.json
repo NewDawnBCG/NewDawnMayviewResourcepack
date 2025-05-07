@@ -7,7 +7,14 @@
         "poser": "cobblemon:luxray_dawnian",
         "model": "cobblemon:luxray_dawnian.geo",
         "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian.png",
-        "layers": []
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian_emissive.png",
+            "translucent": true
+      }
+        ]
       },
       {
         "aspects": [
