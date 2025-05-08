@@ -5,7 +5,19 @@
     "profileScale": 0.6,
     "profileTranslation": [ 0, 0.9, 0 ],
     "faint": "bedrock(luxray_dawnian, faint)",
+    "animations": {
+    "cry": "q.bedrock_stateful('luxray_dawnian', 'cry')",
+	  "status": "q.bedrock_stateful('luxray_dawnian', 'cry')",
+	  "physical": "q.bedrock_primary('luxray_dawnian', 'physical', q.curve('symmetrical_wide'))"
+    },
     "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.bedrock('luxray_dawnian', 'battle_idle')"
+        ]
+      },
       "standing": {
         "poseName": "standing",
         "transformTicks": 10,

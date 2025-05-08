@@ -1,4 +1,7 @@
 {
+    "pokemon.luxray_dawnian.cry": {
+        "sounds": ["cobblemon:pokemon/luxray/luxray_dawnian_cry"]
+    },
     "pokemon.silvally.cry": {
         "sounds": [
             "cobblemon:pokemon/silvally/silvally"
