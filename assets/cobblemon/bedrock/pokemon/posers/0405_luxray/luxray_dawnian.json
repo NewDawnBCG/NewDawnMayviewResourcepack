@@ -15,6 +15,7 @@
         "poseTypes": ["STAND"],
         "isBattle": true,
         "animations": [
+          "q.look('head')",
           "q.bedrock('luxray_dawnian', 'battle_idle')"
         ]
       },
@@ -28,6 +29,7 @@
           "PROFILE"
         ],
         "animations": [
+          "q.look('head')",
           "bedrock(luxray_dawnian, ground_idle)"
         ]
       },
@@ -35,7 +37,10 @@
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(luxray_dawnian, ground_walk)" ]
+        "animations": [
+          "q.look('head')",
+          "bedrock(luxray_dawnian, ground_walk)"
+        ]
       }
     }
    }
