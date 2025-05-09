@@ -1,9 +1,9 @@
 {
     "head": "head",
-    "portraitScale": 2.7,
-    "portraitTranslation": [-0.34, 1.6, 0 ],
-    "profileScale": 0.6,
-    "profileTranslation": [ 0, 0.9, 0 ],
+    "portraitScale": 1,
+    "portraitTranslation": [-0.7, 2, 0 ],
+    "profileScale": 0.4,
+    "profileTranslation": [ 0, 1.2, 0 ],
     "faint": "bedrock(luxray_dawnian, faint)",
     "animations": {
     "cry": "q.bedrock_stateful('luxray_dawnian', 'cry')",
