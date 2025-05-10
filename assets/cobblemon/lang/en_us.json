@@ -1,14 +1,11 @@
 {
     "cobblemon.ui.pokedex.region.dawnian": "Dawn",
     "cobblemon.ui.pokedex.region.extraparadox": "ExtraParadox",
-    
     "cobblemon.ui.pokedex.info.form.dawnian": "Dawnian",
-    
     "cobblemon.battle.activate.snaptrap": "Snap Trap activated!",
     "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
-
     "cobblemon.move.ivycudgel": "Ivy Cudgel",
-
+    "cobblemon.species.dripplin.name": "Dripplin",
     "cobblemon.species.sableye-dawnian.name": "Sableye",
     "cobblemon.species.sableye-dawnian.desc": "[TO BE MADE]",
     "cobblemon.ui.pokedex.info.form.sunny": "Sunny",
