@@ -5,9 +5,8 @@
     "cobblemon.battle.activate.snaptrap": "Snap Trap activated!",
     "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
     "cobblemon.move.ivycudgel": "Ivy Cudgel",
-    "cobblemon.species.dripplin.name": "Dripplin",
     "cobblemon.species.sableye-dawnian.name": "Sableye",
-    "cobblemon.species.sableye-dawnian.desc": "[TO BE MADE]",
+    "cobblemon.species.sableye-dawnian.desc": "These sableye have adapted to the cold, living in icy caves deep underground, and have formed a pack-like dynamic with others of its kind. This allows them to hunt their favorite prey, Carbink, much more efficiently.",
     "cobblemon.ui.pokedex.info.form.sunny": "Sunny",
     "cobblemon.ui.pokedex.info.form.rainy": "Rainy",
     "cobblemon.ui.pokedex.info.form.snowy": "Snowy",
@@ -75,5 +74,7 @@
     "cobblemon.species.tempestfang.desc1": "This seemingly berserk dragon has a odd habit of collecting coins from Gimmighoul through rather vicious methods, this often results in conflicts between Tempest Fang and Ancient Gale.",
     "cobblemon.species.tempestfang.desc2": "Often easily aggrivated, this pokemon likes to take its rage out of surrounding forestry and pokemon.",
     "cobblemon.species.spidopsunbound.name": "Spidops-UB",
-    "cobblemon.species.spidopsunbound.desc": "Spidop's in its purest for of humility. U-N-B-O-U-N-D"
+    "cobblemon.species.spidopsunbound.desc": "Spidop's in its purest for of humility. U-N-B-O-U-N-D",
+    "cobblemon.species.dripplin.name": "Dripplin"
+
 }
