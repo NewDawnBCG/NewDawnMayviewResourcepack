@@ -6,10 +6,11 @@
     "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
     "cobblemon.move.ivycudgel": "Ivy Cudgel",
     "cobblemon.species.sableye-dawnian.name": "Sableye",
-    "cobblemon.species.sableye-dawnian.desc": "[TO BE MADE]",
+    "cobblemon.species.sableye-dawnian.desc": "These sableye have adapted to the cold, living in icy caves deep underground, and have formed a pack-like dynamic with others of its kind. This allows them to hunt their favorite prey, Carbink, much more efficiently.",
     "cobblemon.ui.pokedex.info.form.sunny": "Sunny",
     "cobblemon.ui.pokedex.info.form.rainy": "Rainy",
     "cobblemon.ui.pokedex.info.form.snowy": "Snowy",
+    "cobblemon.species.luxray-dawnian.desc": "Roaming the tundra alone after exile from its pride, this Luxray endured a brutal defeat and the unforgiving cold. Trainers say earning its trust is as rare as seeing lightning during a blizzard.",
     "cobblemon.species.rotom-heat.desc": "A form in which Rotom lurks within a strange cauldron. The cauldron's origin is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble with the flames it spits.",
     "cobblemon.ui.pokedex.info.form.heat": "Heat",
     "cobblemon.species.rotom-wash.desc": "A form in which Rotom lurks within an odd bureau. The bureau's purpose is unknown. A bothersome Pok\u00c3\u00a9mon, causing trouble by splashing cold water everywhere.",
@@ -91,5 +92,6 @@
     "cobblemon.ui.stash.gold": "Coin Stash",
     "cobblemon.species.tachyaton.name": "Tachyaton",
     "cobblemon.species.tachyaton.desc1": "GEOMETRY DASH",
-    "cobblemon.species.tachyaton.desc2": "FIRE IN THE HOLE"
+    "cobblemon.species.tachyaton.desc2": "FIRE IN THE HOLE",
+    "cobblemon.species.dripplin.name": "Dripplin"
 }
