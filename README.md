@@ -63,4 +63,4 @@ Many thanks to the different mod authors and artists that contribute to the pack
 - Edancheese (Commissioner/Concept Drafter)
 - Commercial0505 (Stat Balancing, Commissioner, Sound Design)
 - SidewaysSteven (Commissioner, Stat Balancing)
-
+- xParallels (Tachyaton)
