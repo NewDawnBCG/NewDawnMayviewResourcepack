@@ -394,5 +394,40 @@
                 "volume": 1.1
             }
         ]
+    },
+    "pokemon.numel_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/numel_dawnian/numel_dawnian_cry"
+        ]
+    },
+    "pokemon.camerupt_dawnian.cry": {
+        "sounds": [
+        "cobblemon:pokemon/camerupt_dawnian/camerupt_dawnian_cry"
+        ]
+    },
+    "pokemon.lameyser.cry": {
+        "sounds": [
+        "cobblemon:pokemon/lameyser/lameyser_cry"
+        ]
+    },
+    "pokemon.yamask_dawnian.cry": {
+        "sounds": [
+        "cobblemon:pokemon/yamask_dawnian/yamask_dawnian_cry"
+        ]
+    },
+    "pokemon.luderigus.cry": {
+        "sounds": [
+        "cobblemon:pokemon/luderigus/luderigus_cry"
+        ]
+    },
+    "pokemon.scameleon.cry": {
+        "sounds": [
+        "cobblemon:pokemon/scameleon/scameleon_cry"
+        ]
+    },
+    "pokemon.heracross_dawnian.cry": {
+        "sounds": [
+        "cobblemon:pokemon/heracross_dawnian/heracross_dawnian_cry"
+        ]
     }
 }

@@ -1,0 +1,53 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [0, 0.4, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('yamask_dawnian', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('yamask_dawnian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('yamask_dawnian', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'ground_idle')"
+      ]
+    },
+     "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('yamask_dawnian', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('yamask_dawnian', 'blink')"]
+   },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('yamask_dawnian', 'sleep')"]
+    }
+
+  }
+ }

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lameyser",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lameyser",
+      "model": "cobblemon:lameyser.geo",
+      "texture": "cobblemon:textures/pokemon/lameyser/lameyser.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/lameyser/lameyser_shiny.png",
+      "layers": []
+    }
+  ]
+}

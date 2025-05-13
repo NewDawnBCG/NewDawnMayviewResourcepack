@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:luderigus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:luderigus",
+      "model": "cobblemon:luderigus.geo",
+      "texture": "cobblemon:textures/pokemon/luderigus/luderigus.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/luderigus/luderigus_shiny.png",
+      "layers": []
+    }
+  ]
+}
