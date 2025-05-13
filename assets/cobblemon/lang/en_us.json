@@ -1,14 +1,10 @@
 {
     "cobblemon.ui.pokedex.region.dawnian": "Dawn",
     "cobblemon.ui.pokedex.region.extraparadox": "ExtraParadox",
-    
     "cobblemon.ui.pokedex.info.form.dawnian": "Dawnian",
-    
     "cobblemon.battle.activate.snaptrap": "Snap Trap activated!",
     "cobblemon.battle.damage.snaptrap": "%1$s was hurt by the trap!",
-
     "cobblemon.move.ivycudgel": "Ivy Cudgel",
-
     "cobblemon.species.sableye-dawnian.name": "Sableye",
     "cobblemon.species.sableye-dawnian.desc": "[TO BE MADE]",
     "cobblemon.ui.pokedex.info.form.sunny": "Sunny",
@@ -92,5 +88,8 @@
     "cobblemon.species.luderigus.desc": "Finally gathering enough coins to pay off its debt, Luderigus preys on the less fortunate. It allows them to spin the lever on its side, siphoning away their life force for a chance at a jackpot. This pokemon often engages in brutal clashes with Gholdengo, incorporating their bodies into itself.",
     "cobblemon.species.heracross-dawnian.name": "Heracross",
     "cobblemon.species.heracross-dawnian.desc": "This pokemon has adapted to cave living, incorporating scavenged minerals into its exoskeleton. It has adapted large claws in order to dig tunnels, as well as to fend off Aron and Lairon that attempt to eat the rare earth metals on its back.",
-    "cobblemon.ui.stash.gold": "Coin Stash"
+    "cobblemon.ui.stash.gold": "Coin Stash",
+    "cobblemon.species.tachyaton.name": "Tachyaton",
+    "cobblemon.species.tachyaton.desc1": "GEOMETRY DASH",
+    "cobblemon.species.tachyaton.desc2": "FIRE IN THE HOLE"
 }

@@ -1,0 +1,61 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [0, 0, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0, 0],
+  "animations": {
+    "cry" : "q.bedrock_stateful('tachyaton', 'cry')",
+    "physical" : "q.bedrock_stateful('tachyaton', 'physical')",
+    "special" : "q.bedrock_stateful('tachyaton', 'special')",
+    "status" : "q.bedrock_stateful('tachyaton', 'status')",
+    "recoil" : "q.bedrock_stateful('tachyaton', 'recoil')",
+    "faint" : "q.bedrock_stateful('tachyaton', 'faint')",
+    "freezingglare" : "q.bedrock_stateful('tachyaton', 'freezingglare')"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_idle')"
+      ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "transformTicks": 8,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_walk')"
+      ]
+    },
+    "hover": {
+      "transformTicks": 5,
+      "poseTypes": [ "FLY", "HOVER", "FLOAT" ],
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_walk')"
+       ]
+    },
+    "float": {
+      "transformTicks": 5,
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "transformTicks": 8,
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('tachyaton', 'ground_walk')"
+      ]
+    }
+  }
+}
