@@ -4,13 +4,15 @@
     "variations": [
         {
             "aspects": [],
-            "model": "cobblemon:manectric.geo",
             "poser": "cobblemon:manectric",
-            "texture": "cobblemon:textures/pokemon/0310_manectric/manectric.png"
+            "model": "cobblemon:manectric.geo",
+            "texture": "cobblemon:textures/pokemon/0310_manectric/manectric.png",
+            "layers": []
         },
         {
             "aspects": ["shiny"],
-            "texture": "cobblemon:textures/pokemon/0310_manectric/manectric_shiny.png"
+            "texture": "cobblemon:textures/pokemon/0310_manectric/manectric_shiny.png",
+            "layers": []
         }
     ]
 }
